@@ -1,0 +1,233 @@
+/* =========================================================================
+   Atlas of Innovation in Public Communication — sistema de diseño (Fase 1)
+   Fuente: Insumos/atlas_of_innovation_guidelines.pdf (UNDP)
+   Todo el desarrollo vive DENTRO de .atlas-app para no contaminar el Drupal
+   anfitrión (mismo criterio de embebido que el proyecto Exp: sin banner,
+   sin logos, sin footer — los aporta el entorno).
+   ========================================================================= */
+
+.atlas-app {
+  /* --- Paleta primaria (azules de marca) --- */
+  --deep-ocean: #0e4478;   /* fondos oscuros, titulares, color principal */
+  --pacific:    #0868af;   /* enlaces, elementos clave de identidad */
+  --sky:        #00abd6;   /* apoyos vivos, nivel High visibility */
+  --ice:        #dfecf5;   /* superficies claras, bordes, fondos suaves */
+
+  /* --- Acento --- */
+  --solar:      #f7931e;   /* SOLO énfasis: CTA, estado activo, Spotlight */
+
+  /* --- Secundarios pastel (categorización / dataviz) --- */
+  --cat-clarity:   #ffe5a5;  /* Clarity in Action */
+  --cat-inclusive: #c4ebcf;  /* Inclusive Voices */
+  --cat-trust:     #f698a4;  /* Trust Catalysts */
+  --cat-frontiers: #d0bade;  /* Exploring New Frontiers */
+  --cat-dialogue:  #f8b288;  /* Dialogue Builders */
+
+  /* --- Neutros (matiz azul, nunca gris puro) --- */
+  --ink:        #0e4478;   /* titulares */
+  --text:       #29465c;   /* cuerpo */
+  --muted:      #55707f;   /* secundario, metadatos */
+  --faint:      #8ea6b6;   /* placeholders, hints */
+  --line:       #dfecf5;   /* bordes de cards y divisores */
+  --line-strong:#d5e4ee;   /* bordes de inputs y controles */
+  --bg:         #ffffff;
+  --bg-soft:    #fafcfd;   /* paneles suaves */
+  --bg-chip:    #eef4f9;   /* chips neutros */
+  --select-bg:  #ffe5a5;   /* ::selection y chips de filtro activos */
+
+  /* --- Escala del mapa coroplético (casos por país) --- */
+  --map-1:    #b9e3f0;
+  --map-2:    #7fd0e6;
+  --map-3-7:  #00abd6;
+  --map-8-39: #0868af;
+  --map-40:   #0e4478;
+  --map-none: #e7eef4;
+
+  /* --- Forma --- */
+  --r-sm: 10px; --r-md: 14px; --r-lg: 18px; --r-xl: 22px; --r-pill: 999px;
+
+  /* --- Sombras (tinte azul profundo, nunca negro puro) --- */
+  --shadow-sm: 0 1px 3px rgba(14,68,120,.08);
+  --shadow-md: 0 18px 44px rgba(14,68,120,.16);
+  --shadow-lg: -24px 0 70px rgba(8,38,70,.28);
+
+  /* --- Tipografía --- */
+  --sans-display: 'Host Grotesk', system-ui, sans-serif;  /* títulos, botones */
+  --sans-body: 'Roboto', system-ui, sans-serif;           /* cuerpo */
+  --mono: 'IBM Plex Mono', ui-monospace, monospace;       /* contadores, códigos */
+
+  font-family: var(--sans-body);
+  color: var(--text);
+  background: var(--bg);
+  font-size: 15px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+.atlas-app *, .atlas-app *::before, .atlas-app *::after { box-sizing: border-box; }
+.atlas-app ::selection { background: var(--select-bg); }
+.atlas-app a { color: var(--pacific); text-decoration: none; }
+.atlas-app a:hover { color: var(--solar); }
+.atlas-app button { font-family: inherit; }
+
+/* ---------- Contenedor ---------- */
+.atlas-container { max-width: 1320px; margin: 0 auto; padding: 0 40px; }
+@media (max-width: 720px) { .atlas-container { padding: 0 16px; } }
+
+/* ---------- Tipografía de componentes ---------- */
+.atlas-h2 {
+  margin: 0; font-family: var(--sans-display); font-weight: 700;
+  font-size: 27px; letter-spacing: -.02em; color: var(--ink);
+}
+.atlas-h2--xl { font-size: 40px; letter-spacing: -.025em; }
+.atlas-eyebrow {
+  font-size: 11px; font-weight: 700; letter-spacing: .16em;
+  text-transform: uppercase; color: var(--muted);
+}
+.atlas-kpi { font-family: var(--sans-display); font-weight: 700; line-height: 1; color: var(--ink); }
+.atlas-mono { font-family: var(--mono); font-size: 12px; letter-spacing: .05em; color: var(--muted); }
+
+/* ---------- Botones ---------- */
+.atlas-btn {
+  display: inline-flex; align-items: center; gap: 10px; cursor: pointer;
+  border: 0; border-radius: var(--r-pill);
+  font-family: var(--sans-display); font-weight: 700; font-size: 15px;
+  padding: 13px 24px; transition: background .15s, color .15s, border-color .15s;
+}
+.atlas-btn--primary { background: var(--solar); color: var(--deep-ocean); }
+.atlas-btn--primary:hover { background: #e08312; }
+.atlas-btn--ghost {
+  background: #fff; border: 1.5px solid var(--pacific); color: var(--pacific);
+  font-weight: 600; font-size: 13.5px; padding: 11px 22px;
+}
+.atlas-btn--ghost:hover { background: var(--bg-chip); }
+
+/* ---------- Píldoras / tags ---------- */
+.atlas-tag {
+  display: inline-block; border-radius: var(--r-pill); padding: 5px 11px;
+  font-size: 11px; font-weight: 600; letter-spacing: .05em; line-height: 1.4;
+}
+.atlas-tag--cat { color: var(--deep-ocean); }        /* fondo = color de categoría */
+.atlas-tag--neutral { color: var(--text); background: var(--bg-chip); }
+
+/* ---------- Cards ---------- */
+.atlas-card {
+  background: #fff; border: 1px solid var(--line); border-radius: var(--r-md);
+  transition: box-shadow .15s, border-color .15s, transform .15s;
+}
+.atlas-card--click { cursor: pointer; }
+.atlas-card--click:hover {
+  border-color: #b9d4e8; box-shadow: var(--shadow-md); transform: translateY(-1px);
+}
+.atlas-card--spotlight { border-left: 4px solid var(--solar); }
+
+/* ---------- Buscador ---------- */
+.atlas-search {
+  width: 100%; border: 1.5px solid var(--line-strong); border-radius: var(--r-pill);
+  padding: 16px 26px 16px 52px; font-size: 15px; color: var(--text);
+  outline: none; background: #fff; font-family: var(--sans-body);
+}
+.atlas-search:focus { border-color: var(--sky); box-shadow: 0 0 0 4px rgba(0,171,214,.12); }
+.atlas-search::placeholder { color: var(--faint); }
+
+/* ---------- Filtros (dropdown facetado) ---------- */
+.atlas-filter-btn {
+  display: inline-flex; align-items: center; gap: 9px; cursor: pointer;
+  border: 1.5px solid var(--line-strong); background: #fff;
+  border-radius: var(--r-pill); padding: 11px 18px;
+  font-size: 13.5px; font-weight: 500; color: var(--text);
+}
+.atlas-filter-btn--active { border-color: var(--pacific); background: var(--bg-chip); color: var(--pacific); }
+.atlas-dropdown {
+  position: absolute; top: calc(100% + 8px); left: 0; z-index: 30;
+  background: #fff; border: 1px solid var(--line); border-radius: var(--r-md);
+  box-shadow: var(--shadow-md); min-width: 264px; max-height: 326px;
+  overflow: auto; padding: 8px;
+}
+.atlas-dropdown button {
+  display: flex; width: 100%; align-items: center; justify-content: space-between;
+  gap: 12px; border: 0; background: transparent; border-radius: 9px;
+  padding: 9px 11px; font-size: 13.5px; color: var(--text); cursor: pointer; text-align: left;
+}
+.atlas-dropdown button:hover { background: var(--bg-chip); }
+
+/* Chip de filtro activo */
+.atlas-chip {
+  display: inline-flex; align-items: center; gap: 8px; cursor: pointer; border: 0;
+  background: var(--select-bg); color: var(--deep-ocean); border-radius: var(--r-pill);
+  padding: 7px 13px; font-size: 12px; font-weight: 600;
+}
+
+/* ---------- Selector de idioma ---------- */
+.atlas-lang { display: inline-flex; background: var(--bg-soft); border: 1px solid var(--line); border-radius: var(--r-pill); padding: 3px; }
+.atlas-lang button {
+  border: 0; background: transparent; color: var(--muted); cursor: pointer;
+  font-size: 11.5px; font-weight: 700; letter-spacing: .06em;
+  padding: 6px 13px; border-radius: var(--r-pill);
+}
+.atlas-lang button.is-active { background: var(--solar); color: var(--deep-ocean); }
+
+/* ---------- Ficha lateral (panel deslizante) ---------- */
+.atlas-overlay { position: fixed; inset: 0; z-index: 60; background: rgba(8,38,70,.46); animation: atlas-fadein .18s ease; }
+.atlas-panel {
+  position: fixed; top: 0; right: 0; bottom: 0; z-index: 61;
+  width: 640px; max-width: 94vw; background: #fff;
+  box-shadow: var(--shadow-lg); overflow-y: auto;
+  animation: atlas-slidein .26s cubic-bezier(.22,.7,.3,1);
+}
+@keyframes atlas-slidein { from { transform: translateX(40px); opacity: .4 } to { transform: translateX(0); opacity: 1 } }
+@keyframes atlas-fadein { from { opacity: 0 } to { opacity: 1 } }
+
+/* ---------- Accesibilidad ---------- */
+.atlas-app :focus { outline: none; }
+.atlas-app :focus-visible { outline: 2px solid var(--pacific); outline-offset: 2px; border-radius: 4px; }
+@media (prefers-reduced-motion: reduce) {
+  .atlas-app *, .atlas-app *::before, .atlas-app *::after { animation: none !important; transition: none !important; }
+}
+
+/* ---------- Textura topográfica decorativa ----------
+   Uso: <div class="atlas-texture"></div> posicionado absoluto dentro de un
+   contenedor con overflow hidden; puramente decorativa (aria-hidden). */
+.atlas-texture {
+  position: absolute; inset: 0; pointer-events: none;
+  background-image: url('texture.svg');
+  background-size: 900px auto; background-repeat: repeat;
+  opacity: .5;
+}
+.atlas-texture--light { background-image: url('texture-light.svg'); opacity: .22; }
+
+/* ---------- Grids del repositorio ---------- */
+.atlas-grid { display: grid; gap: 14px; }
+.atlas-grid--stats { grid-template-columns: repeat(4, minmax(0,1fr)); gap: 1px; }
+.atlas-grid--cats { grid-template-columns: repeat(5, minmax(0,1fr)); gap: 12px; }
+.atlas-grid--spot { grid-template-columns: repeat(2, minmax(0,1fr)); gap: 22px; }
+.atlas-grid--spot-mini { grid-template-columns: repeat(4, minmax(0,1fr)); }
+.atlas-grid--high { grid-template-columns: repeat(3, minmax(0,1fr)); gap: 16px; }
+.atlas-map-grid { display: grid; grid-template-columns: 1fr 372px; }
+
+@media (max-width: 1080px) {
+  .atlas-grid--cats { grid-template-columns: repeat(3, minmax(0,1fr)); }
+  .atlas-grid--spot-mini, .atlas-grid--stats { grid-template-columns: repeat(2, minmax(0,1fr)); }
+  .atlas-grid--high { grid-template-columns: repeat(2, minmax(0,1fr)); }
+  .atlas-map-grid { grid-template-columns: 1fr; }
+}
+@media (max-width: 720px) {
+  .atlas-grid--spot, .atlas-grid--high, .atlas-grid--cats,
+  .atlas-grid--spot-mini { grid-template-columns: 1fr; }
+  .atlas-grid--stats { grid-template-columns: repeat(2, minmax(0,1fr)); }
+  .atlas-panel { width: 100vw; max-width: 100vw; }
+  .atlas-h2--xl { font-size: 30px; }
+}
+
+/* Fila de la lista Noteworthy */
+.atlas-row {
+  display: grid; grid-template-columns: minmax(0,3fr) minmax(0,2fr) 150px 20px;
+  gap: 24px; align-items: center; width: 100%; text-align: left;
+  border: 0; border-bottom: 1px solid var(--line); background: transparent;
+  padding: 17px 8px; cursor: pointer;
+}
+.atlas-row:hover { background: var(--bg-soft); }
+@media (max-width: 720px) {
+  .atlas-row { grid-template-columns: 1fr 20px; gap: 6px; }
+  .atlas-row .atlas-row-org, .atlas-row .atlas-row-country { display: none; }
+}

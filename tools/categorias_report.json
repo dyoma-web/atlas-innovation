@@ -1,0 +1,1327 @@
+{
+ "matched": {
+  "E eu, sou o que?": {
+   "title": "E eu, sou o que?",
+   "category": "Inclusive Voices",
+   "tier": "Spotlight",
+   "page": 36,
+   "excel_tier": "Top"
+  },
+  "Coleção Olhares Plurais": {
+   "title": "Olhares Plurais",
+   "category": "Clarity in Action",
+   "tier": "Spotlight",
+   "page": 31,
+   "excel_tier": "Top"
+  },
+  "Portal de Participação Cidadã": {
+   "title": "Participação Popular",
+   "category": "Trust Catalysts",
+   "tier": "Noteworthy",
+   "page": 72,
+   "excel_tier": "Top"
+  },
+  "Tiny Rathaus / Tiny Town Hall": {
+   "title": "Tiny town hall",
+   "category": "Dialogue Builders",
+   "tier": "Spotlight",
+   "page": 39,
+   "excel_tier": "Top"
+  },
+  "EXTRA FAVELAS": {
+   "title": "Extra Favelas",
+   "category": null,
+   "tier": "Spotlight",
+   "page": 48,
+   "excel_tier": "Top"
+  },
+  "Voices of Resilience: An Interactive Dialogue Between the Public and Local Authorities": {
+   "title": "Voices of Resilience",
+   "category": "Trust Catalysts",
+   "tier": "Spotlight",
+   "page": 45,
+   "excel_tier": "Top"
+  },
+  "ECoVR": {
+   "title": "ECoVR",
+   "category": "Clarity in Action",
+   "tier": "Spotlight",
+   "page": 30,
+   "excel_tier": "Top"
+  },
+  "Mulheres em Dialogo": {
+   "title": "Mulheres em Diálogo",
+   "category": "Trust Catalysts",
+   "tier": "Spotlight",
+   "page": 43,
+   "excel_tier": "Top"
+  },
+  "BHASHINI: Powering Multilingual AI for Inclusive Public Communication in a Linguistically Diverse Democracy": {
+   "title": "Bhashini",
+   "category": null,
+   "tier": "Spotlight",
+   "page": 46,
+   "excel_tier": "Top"
+  },
+  "Weaving the Web of Truth: MEC’s Multi-Platform Campaign on Voter Education and Countering  Disinformation": {
+   "title": "Weaving the Web of Truth",
+   "category": "Dialogue Builders",
+   "tier": "Spotlight",
+   "page": 38,
+   "excel_tier": "Top"
+  },
+  "Les ondes de la parole publique": {
+   "title": "Les Ondes de la Parole Publique",
+   "category": "Inclusive Voices",
+   "tier": "Spotlight",
+   "page": 37,
+   "excel_tier": "Top"
+  },
+  "Sistema Mendocino de Comunicación Pública Basada en Evidencia (SIMECPE)": {
+   "title": "Adoção é Vínculo: Comunicação Pública para a Adoção",
+   "category": "Clarity in Action",
+   "tier": "Noteworthy",
+   "page": 68,
+   "excel_tier": "Top"
+  },
+  "Ancla de Voces de Chinú": {
+   "title": "Ancla de Voces de Chinú",
+   "category": "Clarity in Action",
+   "tier": "Spotlight",
+   "page": 32,
+   "excel_tier": "Top"
+  },
+  "VALUEbot : Una plataforma generadora de chatbots mediante IA para la comunicación del valor público del PSM": {
+   "title": "VALUEbot",
+   "category": "Clarity in Action",
+   "tier": "Spotlight",
+   "page": 33,
+   "excel_tier": "Top"
+  },
+  "Elvia Derechos": {
+   "title": "Elvia Derechos",
+   "category": null,
+   "tier": "Spotlight",
+   "page": 49,
+   "excel_tier": "Top"
+  },
+  "ECOS DE CIENAGA ORO": {
+   "title": "Ecos de Ciénaga de Oro",
+   "category": "Trust Catalysts",
+   "tier": "Spotlight",
+   "page": 44,
+   "excel_tier": "Top"
+  },
+  "Minha Escola Ensina Direitos": {
+   "title": "Minha Escola Ensina Direitos",
+   "category": "Clarity in Action",
+   "tier": "High visibility",
+   "page": 51,
+   "excel_tier": "High Visibility"
+  },
+  "Personaliza.br": {
+   "title": "Personaliza.br",
+   "category": "Exploring New Frontiers",
+   "tier": "High visibility",
+   "page": 51,
+   "excel_tier": "High Visibility"
+  },
+  "Campanha “O cuidado não pode ficar só no off” - Defesa dos Direitos de Crianças e Adolescentes no ambiente digital.": {
+   "title": "O cuidado não pode ﬁcar só no off",
+   "category": "Exploring New Frontiers",
+   "tier": "High visibility",
+   "page": 52,
+   "excel_tier": "High Visibility"
+  },
+  "Simplificação e acessibilidade em perguntas e respostas sobre esporotricose e covid-19": {
+   "title": "Simpliﬁcação e acessibilidade em P&R sobre saúde",
+   "category": "Clarity in Action",
+   "tier": "High visibility",
+   "page": 52,
+   "excel_tier": "High Visibility"
+  },
+  "Rede InovaGov": {
+   "title": "Rede InovaGov",
+   "category": "Trust Catalysts",
+   "tier": "High visibility",
+   "page": 53,
+   "excel_tier": "High Visibility"
+  },
+  "A Câmara do Rio na Rua": {
+   "title": "A Câmara do Rio na Rua",
+   "category": "Inclusive Voices",
+   "tier": "High visibility",
+   "page": 53,
+   "excel_tier": "High Visibility"
+  },
+  "Ouvidoria Ativa: Dados que Viram Ação Antirracista": {
+   "title": "Ouvidoria Ativa: Dados que Viram Ação Antirracista",
+   "category": "Inclusive Voices",
+   "tier": "High visibility",
+   "page": 54,
+   "excel_tier": "High Visibility"
+  },
+  "Programa de Inovação do Tesouro do Estado": {
+   "title": "Programa de Inovação do Tesouro do Estado",
+   "category": "Clarity in Action",
+   "tier": "High visibility",
+   "page": 54,
+   "excel_tier": "High Visibility"
+  },
+  "A linguagem reduzindo a regressão penal": {
+   "title": "A linguagem reduzindo a regressão penal",
+   "category": "Clarity in Action",
+   "tier": "High visibility",
+   "page": 55,
+   "excel_tier": "High Visibility"
+  },
+  "Busca ativa no Sistema Nacional de Adoção e Acolhimento: uma campanha de comunicação com histórias de famílias reunidas pela tecnologia do Programa Justiça 4.0": {
+   "title": "Busca ativa no Sistema Nacional de Adoção",
+   "category": "Exploring New Frontiers",
+   "tier": "High visibility",
+   "page": 55,
+   "excel_tier": "High Visibility"
+  },
+  "Transparência que Conecta: Inovação, Acesso e Participação": {
+   "title": "Transparência que Conecta",
+   "category": "Trust Catalysts",
+   "tier": "High visibility",
+   "page": 56,
+   "excel_tier": "High Visibility"
+  },
+  "Dignidade 60+: Comunicação e Proteção Integral à Pessoa Idosa": {
+   "title": "Dignidade 60+",
+   "category": "Inclusive Voices",
+   "tier": "High visibility",
+   "page": 56,
+   "excel_tier": "High Visibility"
+  },
+  "Diplomacy Berlin and PlusFortyNine": {
+   "title": "Diplomacy Berlin and PlusFortyNine",
+   "category": "Trust Catalysts",
+   "tier": "High visibility",
+   "page": 57,
+   "excel_tier": "High Visibility"
+  },
+  "DIGITAL JUSTICE AND HUMAN RIGHTS IN ANGOLA": {
+   "title": "Digital Justice and Human Rights in Angola",
+   "category": "Inclusive Voices",
+   "tier": "High visibility",
+   "page": 57,
+   "excel_tier": "High Visibility"
+  },
+  "Bora Entender": {
+   "title": "Bora Entender",
+   "category": "Trust Catalysts",
+   "tier": "High visibility",
+   "page": 58,
+   "excel_tier": "High Visibility"
+  },
+  "Socio-educational Reporters": {
+   "title": "Socio-educational Reporters",
+   "category": "Inclusive Voices",
+   "tier": "High visibility",
+   "page": 58,
+   "excel_tier": "High Visibility"
+  },
+  "“TUJENGE AMANI PAMOYA” Programme de dialogue intergénérationnel pour la confiance, la collaboration et la cohésion sociale": {
+   "title": "Tujenge Amani Pamoya",
+   "category": "Dialogue Builders",
+   "tier": "High visibility",
+   "page": 59,
+   "excel_tier": "High Visibility"
+  },
+  "Terre et Femme – Communication publique inclusive pour les droits des femmes et l’environnement": {
+   "title": "Terre et Femme",
+   "category": "Clarity in Action",
+   "tier": "High visibility",
+   "page": 59,
+   "excel_tier": "High Visibility"
+  },
+  "Denuncia.org": {
+   "title": "Denuncia.org",
+   "category": "Clarity in Action",
+   "tier": "High visibility",
+   "page": 60,
+   "excel_tier": "High Visibility"
+  },
+  "Somos La Joya": {
+   "title": "Somos La Joya",
+   "category": "Inclusive Voices",
+   "tier": "High visibility",
+   "page": 61,
+   "excel_tier": "High Visibility"
+  },
+  "Más Voz Menos Ruido": {
+   "title": "Más Voz Menos Ruido",
+   "category": "Dialogue Builders",
+   "tier": "High visibility",
+   "page": 61,
+   "excel_tier": "High Visibility"
+  },
+  "Multiplicar las Voces": {
+   "title": "Multiplicar las Voces",
+   "category": "Inclusive Voices",
+   "tier": "High visibility",
+   "page": 62,
+   "excel_tier": "High Visibility"
+  },
+  "\"Contraataque al dengue, ¡Unite a la misión!” Campaña educativa de prevención del dengue, zika y chikungunya.": {
+   "title": "Contraataque al Dengue",
+   "category": "Clarity in Action",
+   "tier": "High visibility",
+   "page": 62,
+   "excel_tier": "High Visibility"
+  },
+  "Catarino, o estagiário sobrevivente": {
+   "title": "Catarino, o estagiário sobrevivente",
+   "category": "Exploring New Frontiers",
+   "tier": "Noteworthy",
+   "page": 64,
+   "excel_tier": "Mention"
+  },
+  "Sagas Pernambucanas": {
+   "title": "Sagas Pernambucanas",
+   "category": "Trust Catalysts",
+   "tier": "Noteworthy",
+   "page": 64,
+   "excel_tier": "Mention"
+  },
+  "Além da Lista": {
+   "title": "Além da Lista",
+   "category": "Clarity in Action",
+   "tier": "Noteworthy",
+   "page": 64,
+   "excel_tier": "Mention"
+  },
+  "Campanha “Onde tem selo de transparência, a prefeitura vira referência - Transparência nos festejos juninos”.": {
+   "title": "Campanha",
+   "category": "Trust Catalysts",
+   "tier": "Noteworthy",
+   "page": 64,
+   "excel_tier": "Mention"
+  },
+  "Website do Coletivo Autista da UFPB": {
+   "title": "Website do Coletivo Autista da UFPB",
+   "category": "Inclusive Voices",
+   "tier": "Noteworthy",
+   "page": 65,
+   "excel_tier": "Mention"
+  },
+  "Visual, Humano e Acessível: O Novo Modelo de Comunicação": {
+   "title": "Visual, Humano e Acessível: Modelo de Comunicação",
+   "category": "Exploring New Frontiers",
+   "tier": "Noteworthy",
+   "page": 65,
+   "excel_tier": "Mention"
+  },
+  "Relatório de Gestão Integrado 2024 (RGI 2024 do MGI)": {
+   "title": "Relatório de Gestão Integrado 2024",
+   "category": "Trust Catalysts",
+   "tier": "Noteworthy",
+   "page": 65,
+   "excel_tier": "Mention"
+  },
+  "Edital de Processo Seletivo de Estágio em Linguagem Simples": {
+   "title": "Edital de Seleção para Estágio em Linguagem Simples",
+   "category": "Clarity in Action",
+   "tier": "Noteworthy",
+   "page": 65,
+   "excel_tier": "Mention"
+  },
+  "Lições da Caatinga": {
+   "title": "Lições da Caatinga",
+   "category": "Clarity in Action",
+   "tier": "Noteworthy",
+   "page": 66,
+   "excel_tier": "Mention"
+  },
+  "Editais para todos: simplificando o acesso a direitos": {
+   "title": "Editais para todos: simpliﬁcando o acesso a direitos",
+   "category": "Clarity in Action",
+   "tier": "Noteworthy",
+   "page": 66,
+   "excel_tier": "Mention"
+  },
+  "ABCDEnergia": {
+   "title": "ABCDEnergia",
+   "category": "Clarity in Action",
+   "tier": "Noteworthy",
+   "page": 66,
+   "excel_tier": "Mention"
+  },
+  "O Admirável Mundo do Teletrabalho no Setor Público": {
+   "title": "O Admirável Mundo do Teletrabalho no Setor Público",
+   "category": "Clarity in Action",
+   "tier": "Noteworthy",
+   "page": 66,
+   "excel_tier": "Mention"
+  },
+  "Ondas de Inovação": {
+   "title": "Ondas de Inovação",
+   "category": "Exploring New Frontiers",
+   "tier": "Noteworthy",
+   "page": 67,
+   "excel_tier": "Mention"
+  },
+  "SOCIAL MEDIA GOV": {
+   "title": "Social Media Gov",
+   "category": "Trust Catalysts",
+   "tier": "Noteworthy",
+   "page": 67,
+   "excel_tier": "Mention"
+  },
+  "Redes Estaduais de Serviços Públicos para Simplificação e Transformação Digital orientadas ao cidadão": {
+   "title": "Redes Estaduais de Serviços Públicos para Simpliﬁcação",
+   "category": "Clarity in Action",
+   "tier": "Noteworthy",
+   "page": 67,
+   "excel_tier": "Mention"
+  },
+  "DECODIFICANDO DIREITOS E DEVERES: UM PROTÓTIPO DIGITAL SIMPLIFICANDO A LINGUAGEM DO CÓDIGO DE ÉTICA E CONDUTA DA EBSERH": {
+   "title": "Decodiﬁcando Direitos E Deveres: Um Protótipo Digital",
+   "category": "Clarity in Action",
+   "tier": "Noteworthy",
+   "page": 67,
+   "excel_tier": "Mention"
+  },
+  "Adoção é vínculo: comunicação pública para desmistificar a adoção e ampliar o acesso à Justiça": {
+   "title": "Adoção é Vínculo: Comunicação Pública para a Adoção",
+   "category": "Clarity in Action",
+   "tier": "Noteworthy",
+   "page": 68,
+   "excel_tier": "Mention"
+  },
+  "Meu nome, Minha história: comunicação pública para garantir o direito à identidade e à dignidade de pessoas trans": {
+   "title": "Meu nome, Minha história",
+   "category": "Inclusive Voices",
+   "tier": "Noteworthy",
+   "page": 68,
+   "excel_tier": "Mention"
+  },
+  "Projeto Foca no Direito 1ª Edição": {
+   "title": "Projeto Foca no Direito 1ª Edição",
+   "category": "Clarity in Action",
+   "tier": "Noteworthy",
+   "page": 68,
+   "excel_tier": "Mention"
+  },
+  "JUDICIÁRIO EM EVIDÊNCIA": {
+   "title": "Judiciário em Evidência",
+   "category": "Trust Catalysts",
+   "tier": "Noteworthy",
+   "page": 68,
+   "excel_tier": "Mention"
+  },
+  "FCB INDOOR": {
+   "title": "FCB Indoor",
+   "category": "Clarity in Action",
+   "tier": "Noteworthy",
+   "page": 69,
+   "excel_tier": "Mention"
+  },
+  "Projeto Justiça de Olhos Abertos": {
+   "title": "Projeto Justiça de Olhos Abertos",
+   "category": "Inclusive Voices",
+   "tier": "Noteworthy",
+   "page": 69,
+   "excel_tier": "Mention"
+  },
+  "Inovação preservando direitos: um caso real no sistema de justiça": {
+   "title": "Inovação Preservando Direitos",
+   "category": "Clarity in Action",
+   "tier": "Noteworthy",
+   "page": 69,
+   "excel_tier": "Mention"
+  },
+  "Projeto Justiça em Libras": {
+   "title": "Projeto Justiça em Libras",
+   "category": "Inclusive Voices",
+   "tier": "Noteworthy",
+   "page": 69,
+   "excel_tier": "Mention"
+  },
+  "TJCE Mobile": {
+   "title": "TJCE Mobile",
+   "category": "Exploring New Frontiers",
+   "tier": "Noteworthy",
+   "page": 70,
+   "excel_tier": "Mention"
+  },
+  "Rio Conectado": {
+   "title": "Rio Conectado",
+   "category": "Clarity in Action",
+   "tier": "Noteworthy",
+   "page": 70,
+   "excel_tier": "Mention"
+  },
+  "Nudepinho e Nudepinha": {
+   "title": "Nudepinho e Nudepinha",
+   "category": "Clarity in Action",
+   "tier": "Noteworthy",
+   "page": 70,
+   "excel_tier": "Mention"
+  },
+  "Justiça por Elas: Ações de Inovação, Comunicação e Proteção à Mulher Cearense": {
+   "title": "Justiça por Elas",
+   "category": "Inclusive Voices",
+   "tier": "Noteworthy",
+   "page": 71,
+   "excel_tier": "Mention"
+  },
+  "Influciência": {
+   "title": "Inﬂuciência",
+   "category": "Exploring New Frontiers",
+   "tier": "Noteworthy",
+   "page": 71,
+   "excel_tier": "Mention"
+  },
+  "Guia Fique Logada (Guide “Stay Linked up”)": {
+   "title": "Guia Fique Logada",
+   "category": "Exploring New Frontiers",
+   "tier": "Noteworthy",
+   "page": 71,
+   "excel_tier": "Mention"
+  },
+  "Postagem Automática de Vídeos - Canal da Câmara no YouTube": {
+   "title": "Postagem Automática de Vídeos,",
+   "category": "Trust Catalysts",
+   "tier": "Noteworthy",
+   "page": 71,
+   "excel_tier": "Mention"
+  },
+  "Guia Prático de Projetos": {
+   "title": "Guia Prático de Projetos",
+   "category": "Clarity in Action",
+   "tier": "Noteworthy",
+   "page": 72,
+   "excel_tier": "Mention"
+  },
+  "Participação Popular": {
+   "title": "Participação Popular",
+   "category": "Trust Catalysts",
+   "tier": "Noteworthy",
+   "page": 72,
+   "excel_tier": "Mention"
+  },
+  "Elas Pautam": {
+   "title": "Elas Pautam",
+   "category": "Inclusive Voices",
+   "tier": "Noteworthy",
+   "page": 72,
+   "excel_tier": "Mention"
+  },
+  "Research": {
+   "title": "Research",
+   "category": "Clarity in Action",
+   "tier": "Noteworthy",
+   "page": 72,
+   "excel_tier": "Mention"
+  },
+  "Juizado do Torcedor: o Judiciário presente no estádio para garantir direitos, prevenir conflitos e promover cidadania": {
+   "title": "Juizado do Torcedor: o Judiciário presente no estádio",
+   "category": "Trust Catalysts",
+   "tier": "Noteworthy",
+   "page": 73,
+   "excel_tier": "Mention"
+  },
+  "Innovating for Impact: Digital Innovation for Media Sustainability in Fragile Democracies": {
+   "title": "Innovating for Impact: Digital Innovation for Media",
+   "category": "Exploring New Frontiers",
+   "tier": "Noteworthy",
+   "page": 73,
+   "excel_tier": "Mention"
+  },
+  "Open Journalism Network": {
+   "title": "Open Journalism Network",
+   "category": "Exploring New Frontiers",
+   "tier": "Noteworthy",
+   "page": 73,
+   "excel_tier": "Mention"
+  },
+  "GenZ(AI)": {
+   "title": "GenZ (AI)",
+   "category": "Exploring New Frontiers",
+   "tier": "Noteworthy",
+   "page": 73,
+   "excel_tier": "Mention"
+  },
+  "Hotsite Curió": {
+   "title": "Hotsite Curió",
+   "category": "Trust Catalysts",
+   "tier": "Noteworthy",
+   "page": 74,
+   "excel_tier": "Mention"
+  },
+  "The International Parliament Engagement Network (IPEN)": {
+   "title": "The International Parliament Engagement Network",
+   "category": "Dialogue Builders",
+   "tier": "Noteworthy",
+   "page": 74,
+   "excel_tier": "Mention"
+  },
+  "From Kitchens to Citizens: Indonesia's Nutrition Communication at Scale": {
+   "title": "From Kitchens to Citizens: Indonesia's Nutrition Communication at Scale",
+   "category": "Dialogue Builders",
+   "tier": "Noteworthy",
+   "page": 74,
+   "excel_tier": "Mention"
+  },
+  "The MDD, good governance and climate change project": {
+   "title": "The MDD , Good Governance and Climate Change Project",
+   "category": "Dialogue Builders",
+   "tier": "Noteworthy",
+   "page": 74,
+   "excel_tier": "Mention"
+  },
+  "Green Growth Along the River (Tam Tonle)": {
+   "title": "Green Growth Along the River",
+   "category": "Inclusive Voices",
+   "tier": "Noteworthy",
+   "page": 75,
+   "excel_tier": "Mention"
+  },
+  "Information on Custody Hearings in Brazilian Indigenous Languages": {
+   "title": "Information on Custody Hearings in Brazilian Indigenous Languages",
+   "category": "Inclusive Voices",
+   "tier": "Noteworthy",
+   "page": 75,
+   "excel_tier": "Mention"
+  },
+  "Co-Creating Change with Educators: Inclusive Public Communication in India’s Public Education System": {
+   "title": "Co-Creating Change with Educators",
+   "category": "Inclusive Voices",
+   "tier": "Noteworthy",
+   "page": 75,
+   "excel_tier": "Mention"
+  },
+  "Gobernanza participativa en zonas mineras": {
+   "title": "Gobernanza Participativa en Zonas Mineras",
+   "category": "Dialogue Builders",
+   "tier": "Noteworthy",
+   "page": 75,
+   "excel_tier": "Mention"
+  },
+  "HERRAMIENTAS PARA MODERNIZAR LA ESCRITURA EN LA UNIVERSIDAD NACIONAL DE CÓRDOBA: LA EXPERIENCIA DE ELABORACIÓN DEL MANUAL ESCRIBIR TEXTOS ADMINISTRATIVOS EN LA UNC CON PERSPECTIVA DE GÉNERO Y LENGUAJE JURÍDICO CLARO": {
+   "title": "Herramientas para modernizar la escritura en la Universidad Nacional de Córdoba",
+   "category": "Clarity in Action",
+   "tier": "Noteworthy",
+   "page": 76,
+   "excel_tier": "Mention"
+  },
+  "CoLabora - Laboratorio de Innovación Pública de la Alcaldía de Bucaramanga": {
+   "title": "CoLabora - Laboratorio de Innovación Pública de la Alcaldía de Bucaramanga",
+   "category": "Trust Catalysts",
+   "tier": "Noteworthy",
+   "page": 76,
+   "excel_tier": "Mention"
+  },
+  "Plataforma de divulgación de ciencia “IMAGiNA”": {
+   "title": "Plataforma de divulgación de ciencia \"IMAGiNA\"",
+   "category": "Clarity in Action",
+   "tier": "Noteworthy",
+   "page": 76,
+   "excel_tier": "Mention"
+  },
+  "Florece: Comunicación Pública para la Sostenibilidad y la Acción Comunitaria": {
+   "title": "Florece: Comunicación Pública para la Sostenibilidad y la Acción Comunitaria",
+   "category": "Clarity in Action",
+   "tier": "Noteworthy",
+   "page": 76,
+   "excel_tier": "Mention"
+  },
+  "NovaBurocracIA El podcast de la innovación en la Administración Pública": {
+   "title": "NovaBurocracIA: El Podcast de la Innovación en la Administración Pública",
+   "category": "Clarity in Action",
+   "tier": "Noteworthy",
+   "page": 77,
+   "excel_tier": "Mention"
+  },
+  "Minisite ORH Informa: Conoce y comparte todas las actividades que la ORH desarrolla para ti": {
+   "title": "Minisite ORH Informa: Conoce y comparte todas las actividades que la ORH desarrolla para ti",
+   "category": "Clarity in Action",
+   "tier": "Noteworthy",
+   "page": 77,
+   "excel_tier": "Mention"
+  },
+  "Mangle inc.": {
+   "title": "Mangle inc.",
+   "category": "Exploring New Frontiers",
+   "tier": "Noteworthy",
+   "page": 77,
+   "excel_tier": "Mention"
+  },
+  "Visible lo Invisible": {
+   "title": "Visible lo Invisible",
+   "category": "Inclusive Voices",
+   "tier": "Noteworthy",
+   "page": 77,
+   "excel_tier": "Mention"
+  },
+  "Impulso de las Microfinanzas en Paraguay, mediante incentivos competitivos para mejorar las condiciones de acceso al crédito de Mypes": {
+   "title": "Impulso de las Microﬁnanzas en Paraguay",
+   "category": "Trust Catalysts",
+   "tier": "Noteworthy",
+   "page": 78,
+   "excel_tier": "Mention"
+  },
+  "\"Gobierno Digital\", innovación en comunicación pública para un Estado accesible y cercano": {
+   "title": "Gobierno Digital: Innovación en Comunicación Pública",
+   "category": "Clarity in Action",
+   "tier": "Noteworthy",
+   "page": 78,
+   "excel_tier": "Mention"
+  },
+  "Libertades públicas": {
+   "title": "Libertades Públicas",
+   "category": "Dialogue Builders",
+   "tier": "Noteworthy",
+   "page": 78,
+   "excel_tier": "Mention"
+  },
+  "Caixa de Ferramentas do Linguagem Simples Lab": {
+   "title": "Edital de Seleção para Estágio em Linguagem Simples",
+   "category": "Clarity in Action",
+   "tier": "Noteworthy",
+   "page": 65,
+   "excel_tier": "Mention"
+  },
+  "Social Media Gov": {
+   "title": "Social Media Gov",
+   "category": "Trust Catalysts",
+   "tier": "Noteworthy",
+   "page": 67,
+   "excel_tier": "Mention"
+  }
+ },
+ "unmatched_excel": [
+  "Saúde e direitos humanos das pessoas com deficiência: disseminando conhecimento para fortalecer a cidadania",
+  "From Portals to Conversations: Reimagining Public Communication Through Messaging",
+  "\"Not Alone\" - Anti-Cyber-Kidnaping Campaign",
+  "Voix des Survivants : une communication publique participative pour la justice et la paix au Kivu(Est de la RDCongo)",
+  "Participación y Construcción Comunitaria de la Seguridad Ciudadana – “Modelo de Abordaje en Prevención Comunitaria de la Secretaria de Estado de Participación Ciudadana Tucumán – Argentina”",
+  "CAPACITISMO OBSTÉTRICO: uma contracartilha para celebrar os direitos à maternidade das mulheres com deficiência",
+  "Edital do Processo Eleitoral para Ouvidor Externo Geral da Defensoria Pública",
+  "Programa jornalístico Conexões",
+  "Santo André pelo Clima - diálogos que transformam",
+  "Expressão Nacional",
+  "U=U Dance Challenge",
+  "From dialogue to decisions: AI-supported participatory social planning (Siegen‑Wittgenstein District, Germany, 2024)",
+  "Creación de micrositio web: redacta simple unc",
+  "REE SI! Red de Empoderamiento y Educación Sexual Integral"
+ ],
+ "report_raw": [
+  {
+   "title": "ECoVR",
+   "category": "Clarity in Action",
+   "tier": "Spotlight",
+   "page": 30
+  },
+  {
+   "title": "Olhares Plurais",
+   "category": "Clarity in Action",
+   "tier": "Spotlight",
+   "page": 31
+  },
+  {
+   "title": "Ancla de Voces de Chinú",
+   "category": "Clarity in Action",
+   "tier": "Spotlight",
+   "page": 32
+  },
+  {
+   "title": "VALUEbot",
+   "category": "Clarity in Action",
+   "tier": "Spotlight",
+   "page": 33
+  },
+  {
+   "title": "Voices of Survivors",
+   "category": "Inclusive Voices",
+   "tier": "Spotlight",
+   "page": 34
+  },
+  {
+   "title": "Health + HR of Persons with Disabilities",
+   "category": "Inclusive Voices",
+   "tier": "Spotlight",
+   "page": 35
+  },
+  {
+   "title": "E eu, sou o que?",
+   "category": "Inclusive Voices",
+   "tier": "Spotlight",
+   "page": 36
+  },
+  {
+   "title": "Les Ondes de la Parole Publique",
+   "category": "Inclusive Voices",
+   "tier": "Spotlight",
+   "page": 37
+  },
+  {
+   "title": "Weaving the Web of Truth",
+   "category": "Dialogue Builders",
+   "tier": "Spotlight",
+   "page": 38
+  },
+  {
+   "title": "Tiny town hall",
+   "category": "Dialogue Builders",
+   "tier": "Spotlight",
+   "page": 39
+  },
+  {
+   "title": "ChatNation",
+   "category": "Dialogue Builders",
+   "tier": "Spotlight",
+   "page": 40
+  },
+  {
+   "title": "TCU Participation Portal",
+   "category": "Dialogue Builders",
+   "tier": "Spotlight",
+   "page": 41
+  },
+  {
+   "title": "SIMECPE",
+   "category": "Trust Catalysts",
+   "tier": "Spotlight",
+   "page": 42
+  },
+  {
+   "title": "Mulheres em Diálogo",
+   "category": "Trust Catalysts",
+   "tier": "Spotlight",
+   "page": 43
+  },
+  {
+   "title": "Ecos de Ciénaga de Oro",
+   "category": "Trust Catalysts",
+   "tier": "Spotlight",
+   "page": 44
+  },
+  {
+   "title": "Voices of Resilience",
+   "category": "Trust Catalysts",
+   "tier": "Spotlight",
+   "page": 45
+  },
+  {
+   "title": "Bhashini",
+   "category": null,
+   "tier": "Spotlight",
+   "page": 46
+  },
+  {
+   "title": "You are not alone",
+   "category": null,
+   "tier": "Spotlight",
+   "page": 47
+  },
+  {
+   "title": "Extra Favelas",
+   "category": null,
+   "tier": "Spotlight",
+   "page": 48
+  },
+  {
+   "title": "Elvia Derechos",
+   "category": null,
+   "tier": "Spotlight",
+   "page": 49
+  },
+  {
+   "title": "Minha Escola Ensina Direitos",
+   "category": "Clarity in Action",
+   "tier": "High visibility",
+   "page": 51
+  },
+  {
+   "title": "Personaliza.br",
+   "category": "Exploring New Frontiers",
+   "tier": "High visibility",
+   "page": 51
+  },
+  {
+   "title": "O cuidado não pode ﬁcar só no off",
+   "category": "Exploring New Frontiers",
+   "tier": "High visibility",
+   "page": 52
+  },
+  {
+   "title": "Simpliﬁcação e acessibilidade em P&R sobre saúde",
+   "category": "Clarity in Action",
+   "tier": "High visibility",
+   "page": 52
+  },
+  {
+   "title": "Rede InovaGov",
+   "category": "Trust Catalysts",
+   "tier": "High visibility",
+   "page": 53
+  },
+  {
+   "title": "A Câmara do Rio na Rua",
+   "category": "Inclusive Voices",
+   "tier": "High visibility",
+   "page": 53
+  },
+  {
+   "title": "Ouvidoria Ativa: Dados que Viram Ação Antirracista",
+   "category": "Inclusive Voices",
+   "tier": "High visibility",
+   "page": 54
+  },
+  {
+   "title": "Programa de Inovação do Tesouro do Estado",
+   "category": "Clarity in Action",
+   "tier": "High visibility",
+   "page": 54
+  },
+  {
+   "title": "A linguagem reduzindo a regressão penal",
+   "category": "Clarity in Action",
+   "tier": "High visibility",
+   "page": 55
+  },
+  {
+   "title": "Busca ativa no Sistema Nacional de Adoção",
+   "category": "Exploring New Frontiers",
+   "tier": "High visibility",
+   "page": 55
+  },
+  {
+   "title": "Transparência que Conecta",
+   "category": "Trust Catalysts",
+   "tier": "High visibility",
+   "page": 56
+  },
+  {
+   "title": "Dignidade 60+",
+   "category": "Inclusive Voices",
+   "tier": "High visibility",
+   "page": 56
+  },
+  {
+   "title": "Diplomacy Berlin and PlusFortyNine",
+   "category": "Trust Catalysts",
+   "tier": "High visibility",
+   "page": 57
+  },
+  {
+   "title": "Digital Justice and Human Rights in Angola",
+   "category": "Inclusive Voices",
+   "tier": "High visibility",
+   "page": 57
+  },
+  {
+   "title": "Bora Entender",
+   "category": "Trust Catalysts",
+   "tier": "High visibility",
+   "page": 58
+  },
+  {
+   "title": "Socio-educational Reporters",
+   "category": "Inclusive Voices",
+   "tier": "High visibility",
+   "page": 58
+  },
+  {
+   "title": "Tujenge Amani Pamoya",
+   "category": "Dialogue Builders",
+   "tier": "High visibility",
+   "page": 59
+  },
+  {
+   "title": "Terre et Femme",
+   "category": "Clarity in Action",
+   "tier": "High visibility",
+   "page": 59
+  },
+  {
+   "title": "Denuncia.org",
+   "category": "Clarity in Action",
+   "tier": "High visibility",
+   "page": 60
+  },
+  {
+   "title": "Somos La Joya",
+   "category": "Inclusive Voices",
+   "tier": "High visibility",
+   "page": 61
+  },
+  {
+   "title": "Más Voz Menos Ruido",
+   "category": "Dialogue Builders",
+   "tier": "High visibility",
+   "page": 61
+  },
+  {
+   "title": "Multiplicar las Voces",
+   "category": "Inclusive Voices",
+   "tier": "High visibility",
+   "page": 62
+  },
+  {
+   "title": "Contraataque al Dengue",
+   "category": "Clarity in Action",
+   "tier": "High visibility",
+   "page": 62
+  },
+  {
+   "title": "Catarino, o estagiário sobrevivente",
+   "category": "Exploring New Frontiers",
+   "tier": "Noteworthy",
+   "page": 64
+  },
+  {
+   "title": "Campanha",
+   "category": "Trust Catalysts",
+   "tier": "Noteworthy",
+   "page": 64
+  },
+  {
+   "title": "Sagas Pernambucanas",
+   "category": "Trust Catalysts",
+   "tier": "Noteworthy",
+   "page": 64
+  },
+  {
+   "title": "Além da Lista",
+   "category": "Clarity in Action",
+   "tier": "Noteworthy",
+   "page": 64
+  },
+  {
+   "title": "Website do Coletivo Autista da UFPB",
+   "category": "Inclusive Voices",
+   "tier": "Noteworthy",
+   "page": 65
+  },
+  {
+   "title": "Edital de Seleção para Estágio em Linguagem Simples",
+   "category": "Clarity in Action",
+   "tier": "Noteworthy",
+   "page": 65
+  },
+  {
+   "title": "Visual, Humano e Acessível: Modelo de Comunicação",
+   "category": "Exploring New Frontiers",
+   "tier": "Noteworthy",
+   "page": 65
+  },
+  {
+   "title": "Relatório de Gestão Integrado 2024",
+   "category": "Trust Catalysts",
+   "tier": "Noteworthy",
+   "page": 65
+  },
+  {
+   "title": "Lições da Caatinga",
+   "category": "Clarity in Action",
+   "tier": "Noteworthy",
+   "page": 66
+  },
+  {
+   "title": "O Admirável Mundo do Teletrabalho no Setor Público",
+   "category": "Clarity in Action",
+   "tier": "Noteworthy",
+   "page": 66
+  },
+  {
+   "title": "Editais para todos: simpliﬁcando o acesso a direitos",
+   "category": "Clarity in Action",
+   "tier": "Noteworthy",
+   "page": 66
+  },
+  {
+   "title": "ABCDEnergia",
+   "category": "Clarity in Action",
+   "tier": "Noteworthy",
+   "page": 66
+  },
+  {
+   "title": "Ondas de Inovação",
+   "category": "Exploring New Frontiers",
+   "tier": "Noteworthy",
+   "page": 67
+  },
+  {
+   "title": "Decodiﬁcando Direitos E Deveres: Um Protótipo Digital",
+   "category": "Clarity in Action",
+   "tier": "Noteworthy",
+   "page": 67
+  },
+  {
+   "title": "Social Media Gov",
+   "category": "Trust Catalysts",
+   "tier": "Noteworthy",
+   "page": 67
+  },
+  {
+   "title": "Redes Estaduais de Serviços Públicos para Simpliﬁcação",
+   "category": "Clarity in Action",
+   "tier": "Noteworthy",
+   "page": 67
+  },
+  {
+   "title": "Adoção é Vínculo: Comunicação Pública para a Adoção",
+   "category": "Clarity in Action",
+   "tier": "Noteworthy",
+   "page": 68
+  },
+  {
+   "title": "Judiciário em Evidência",
+   "category": "Trust Catalysts",
+   "tier": "Noteworthy",
+   "page": 68
+  },
+  {
+   "title": "Meu nome, Minha história",
+   "category": "Inclusive Voices",
+   "tier": "Noteworthy",
+   "page": 68
+  },
+  {
+   "title": "Projeto Foca no Direito 1ª Edição",
+   "category": "Clarity in Action",
+   "tier": "Noteworthy",
+   "page": 68
+  },
+  {
+   "title": "FCB Indoor",
+   "category": "Clarity in Action",
+   "tier": "Noteworthy",
+   "page": 69
+  },
+  {
+   "title": "Projeto Justiça em Libras",
+   "category": "Inclusive Voices",
+   "tier": "Noteworthy",
+   "page": 69
+  },
+  {
+   "title": "Projeto Justiça de Olhos Abertos",
+   "category": "Inclusive Voices",
+   "tier": "Noteworthy",
+   "page": 69
+  },
+  {
+   "title": "Inovação Preservando Direitos",
+   "category": "Clarity in Action",
+   "tier": "Noteworthy",
+   "page": 69
+  },
+  {
+   "title": "TJCE Mobile",
+   "category": "Exploring New Frontiers",
+   "tier": "Noteworthy",
+   "page": 70
+  },
+  {
+   "title": "Capacitismo Obstétrico: uma Contra Cartilha",
+   "category": "Inclusive Voices",
+   "tier": "Noteworthy",
+   "page": 70
+  },
+  {
+   "title": "Rio Conectado",
+   "category": "Clarity in Action",
+   "tier": "Noteworthy",
+   "page": 70
+  },
+  {
+   "title": "Nudepinho e Nudepinha",
+   "category": "Clarity in Action",
+   "tier": "Noteworthy",
+   "page": 70
+  },
+  {
+   "title": "Justiça por Elas",
+   "category": "Inclusive Voices",
+   "tier": "Noteworthy",
+   "page": 71
+  },
+  {
+   "title": "Postagem Automática de Vídeos,",
+   "category": "Trust Catalysts",
+   "tier": "Noteworthy",
+   "page": 71
+  },
+  {
+   "title": "Inﬂuciência",
+   "category": "Exploring New Frontiers",
+   "tier": "Noteworthy",
+   "page": 71
+  },
+  {
+   "title": "Guia Fique Logada",
+   "category": "Exploring New Frontiers",
+   "tier": "Noteworthy",
+   "page": 71
+  },
+  {
+   "title": "Guia Prático de Projetos",
+   "category": "Clarity in Action",
+   "tier": "Noteworthy",
+   "page": 72
+  },
+  {
+   "title": "Research",
+   "category": "Clarity in Action",
+   "tier": "Noteworthy",
+   "page": 72
+  },
+  {
+   "title": "Participação Popular",
+   "category": "Trust Catalysts",
+   "tier": "Noteworthy",
+   "page": 72
+  },
+  {
+   "title": "Elas Pautam",
+   "category": "Inclusive Voices",
+   "tier": "Noteworthy",
+   "page": 72
+  },
+  {
+   "title": "Juizado do Torcedor: o Judiciário presente no estádio",
+   "category": "Trust Catalysts",
+   "tier": "Noteworthy",
+   "page": 73
+  },
+  {
+   "title": "GenZ (AI)",
+   "category": "Exploring New Frontiers",
+   "tier": "Noteworthy",
+   "page": 73
+  },
+  {
+   "title": "Innovating for Impact: Digital Innovation for Media",
+   "category": "Exploring New Frontiers",
+   "tier": "Noteworthy",
+   "page": 73
+  },
+  {
+   "title": "Open Journalism Network",
+   "category": "Exploring New Frontiers",
+   "tier": "Noteworthy",
+   "page": 73
+  },
+  {
+   "title": "Hotsite Curió",
+   "category": "Trust Catalysts",
+   "tier": "Noteworthy",
+   "page": 74
+  },
+  {
+   "title": "The MDD , Good Governance and Climate Change Project",
+   "category": "Dialogue Builders",
+   "tier": "Noteworthy",
+   "page": 74
+  },
+  {
+   "title": "The International Parliament Engagement Network",
+   "category": "Dialogue Builders",
+   "tier": "Noteworthy",
+   "page": 74
+  },
+  {
+   "title": "From Kitchens to Citizens: Indonesia's Nutrition Communication at Scale",
+   "category": "Dialogue Builders",
+   "tier": "Noteworthy",
+   "page": 74
+  },
+  {
+   "title": "Green Growth Along the River",
+   "category": "Inclusive Voices",
+   "tier": "Noteworthy",
+   "page": 75
+  },
+  {
+   "title": "Gobernanza Participativa en Zonas Mineras",
+   "category": "Dialogue Builders",
+   "tier": "Noteworthy",
+   "page": 75
+  },
+  {
+   "title": "Information on Custody Hearings in Brazilian Indigenous Languages",
+   "category": "Inclusive Voices",
+   "tier": "Noteworthy",
+   "page": 75
+  },
+  {
+   "title": "Co-Creating Change with Educators",
+   "category": "Inclusive Voices",
+   "tier": "Noteworthy",
+   "page": 75
+  },
+  {
+   "title": "Herramientas para modernizar la escritura en la Universidad Nacional de Córdoba",
+   "category": "Clarity in Action",
+   "tier": "Noteworthy",
+   "page": 76
+  },
+  {
+   "title": "Florece: Comunicación Pública para la Sostenibilidad y la Acción Comunitaria",
+   "category": "Clarity in Action",
+   "tier": "Noteworthy",
+   "page": 76
+  },
+  {
+   "title": "CoLabora - Laboratorio de Innovación Pública de la Alcaldía de Bucaramanga",
+   "category": "Trust Catalysts",
+   "tier": "Noteworthy",
+   "page": 76
+  },
+  {
+   "title": "Plataforma de divulgación de ciencia \"IMAGiNA\"",
+   "category": "Clarity in Action",
+   "tier": "Noteworthy",
+   "page": 76
+  },
+  {
+   "title": "NovaBurocracIA: El Podcast de la Innovación en la Administración Pública",
+   "category": "Clarity in Action",
+   "tier": "Noteworthy",
+   "page": 77
+  },
+  {
+   "title": "Visible lo Invisible",
+   "category": "Inclusive Voices",
+   "tier": "Noteworthy",
+   "page": 77
+  },
+  {
+   "title": "Minisite ORH Informa: Conoce y comparte todas las actividades que la ORH desarrolla para ti",
+   "category": "Clarity in Action",
+   "tier": "Noteworthy",
+   "page": 77
+  },
+  {
+   "title": "Mangle inc.",
+   "category": "Exploring New Frontiers",
+   "tier": "Noteworthy",
+   "page": 77
+  },
+  {
+   "title": "Impulso de las Microﬁnanzas en Paraguay",
+   "category": "Trust Catalysts",
+   "tier": "Noteworthy",
+   "page": 78
+  },
+  {
+   "title": "Gobierno Digital: Innovación en Comunicación Pública",
+   "category": "Clarity in Action",
+   "tier": "Noteworthy",
+   "page": 78
+  },
+  {
+   "title": "Libertades Públicas",
+   "category": "Dialogue Builders",
+   "tier": "Noteworthy",
+   "page": 78
+  }
+ ]
+}

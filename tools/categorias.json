@@ -1,0 +1,476 @@
+{
+ "oficial": {
+  "E eu, sou o que?": {
+   "category": "Inclusive Voices",
+   "source": "report p36 (E eu, sou o que?)"
+  },
+  "Saúde e direitos humanos das pessoas com deficiência: disseminando conhecimento para fortalecer a cidadania": {
+   "category": "Inclusive Voices",
+   "source": "report p35"
+  },
+  "Coleção Olhares Plurais": {
+   "category": "Clarity in Action",
+   "source": "report p31 (Olhares Plurais)"
+  },
+  "Portal de Participação Cidadã": {
+   "category": "Dialogue Builders",
+   "source": "report p41 (TCU Participation Portal)"
+  },
+  "Tiny Rathaus / Tiny Town Hall": {
+   "category": "Dialogue Builders",
+   "source": "report p39 (Tiny town hall)"
+  },
+  "EXTRA FAVELAS": {
+   "category": "Exploring New Frontiers",
+   "source": "report p48, resaltado visual"
+  },
+  "Voices of Resilience: An Interactive Dialogue Between the Public and Local Authorities": {
+   "category": "Trust Catalysts",
+   "source": "report p45 (Voices of Resilience)"
+  },
+  "From Portals to Conversations: Reimagining Public Communication Through Messaging": {
+   "category": "Dialogue Builders",
+   "source": "report p40 (ChatNation)"
+  },
+  "ECoVR": {
+   "category": "Clarity in Action",
+   "source": "report p30 (ECoVR)"
+  },
+  "\"Not Alone\" - Anti-Cyber-Kidnaping Campaign": {
+   "category": "Exploring New Frontiers",
+   "source": "report p47, resaltado visual"
+  },
+  "Mulheres em Dialogo": {
+   "category": "Trust Catalysts",
+   "source": "report p43 (Mulheres em Diálogo)"
+  },
+  "BHASHINI: Powering Multilingual AI for Inclusive Public Communication in a Linguistically Diverse Democracy": {
+   "category": "Exploring New Frontiers",
+   "source": "report p46, resaltado visual"
+  },
+  "Weaving the Web of Truth: MEC’s Multi-Platform Campaign on Voter Education and Countering  Disinformation": {
+   "category": "Dialogue Builders",
+   "source": "report p38 (Weaving the Web of Truth)"
+  },
+  "Les ondes de la parole publique": {
+   "category": "Inclusive Voices",
+   "source": "report p37 (Les Ondes de la Parole Publique)"
+  },
+  "Voix des Survivants : une communication publique participative pour la justice et la paix au Kivu(Est de la RDCongo)": {
+   "category": "Inclusive Voices",
+   "source": "report p34 (Voices of Survivors)"
+  },
+  "Sistema Mendocino de Comunicación Pública Basada en Evidencia (SIMECPE)": {
+   "category": "Trust Catalysts",
+   "source": "report p42 (SIMECPE)"
+  },
+  "Ancla de Voces de Chinú": {
+   "category": "Clarity in Action",
+   "source": "report p32 (Ancla de Voces de Chinú)"
+  },
+  "VALUEbot : Una plataforma generadora de chatbots mediante IA para la comunicación del valor público del PSM": {
+   "category": "Clarity in Action",
+   "source": "report p33 (VALUEbot)"
+  },
+  "Elvia Derechos": {
+   "category": "Exploring New Frontiers",
+   "source": "report p49, resaltado visual"
+  },
+  "ECOS DE CIENAGA ORO": {
+   "category": "Trust Catalysts",
+   "source": "report p44 (Ecos de Ciénaga de Oro)"
+  },
+  "Minha Escola Ensina Direitos": {
+   "category": "Clarity in Action",
+   "source": "report p51 (Minha Escola Ensina Direitos)"
+  },
+  "Personaliza.br": {
+   "category": "Exploring New Frontiers",
+   "source": "report p51 (Personaliza.br)"
+  },
+  "Campanha “O cuidado não pode ficar só no off” - Defesa dos Direitos de Crianças e Adolescentes no ambiente digital.": {
+   "category": "Exploring New Frontiers",
+   "source": "report p52 (O cuidado não pode ﬁcar só no off)"
+  },
+  "Simplificação e acessibilidade em perguntas e respostas sobre esporotricose e covid-19": {
+   "category": "Clarity in Action",
+   "source": "report p52 (Simpliﬁcação e acessibilidade em P&R sob)"
+  },
+  "Rede InovaGov": {
+   "category": "Trust Catalysts",
+   "source": "report p53 (Rede InovaGov)"
+  },
+  "A Câmara do Rio na Rua": {
+   "category": "Inclusive Voices",
+   "source": "report p53 (A Câmara do Rio na Rua)"
+  },
+  "Ouvidoria Ativa: Dados que Viram Ação Antirracista": {
+   "category": "Inclusive Voices",
+   "source": "report p54 (Ouvidoria Ativa: Dados que Viram Ação An)"
+  },
+  "Programa de Inovação do Tesouro do Estado": {
+   "category": "Clarity in Action",
+   "source": "report p54 (Programa de Inovação do Tesouro do Estad)"
+  },
+  "A linguagem reduzindo a regressão penal": {
+   "category": "Clarity in Action",
+   "source": "report p55 (A linguagem reduzindo a regressão penal)"
+  },
+  "Busca ativa no Sistema Nacional de Adoção e Acolhimento: uma campanha de comunicação com histórias de famílias reunidas pela tecnologia do Programa Justiça 4.0": {
+   "category": "Exploring New Frontiers",
+   "source": "report p55 (Busca ativa no Sistema Nacional de Adoçã)"
+  },
+  "Transparência que Conecta: Inovação, Acesso e Participação": {
+   "category": "Trust Catalysts",
+   "source": "report p56 (Transparência que Conecta)"
+  },
+  "Dignidade 60+: Comunicação e Proteção Integral à Pessoa Idosa": {
+   "category": "Inclusive Voices",
+   "source": "report p56 (Dignidade 60+)"
+  },
+  "Diplomacy Berlin and PlusFortyNine": {
+   "category": "Trust Catalysts",
+   "source": "report p57 (Diplomacy Berlin and PlusFortyNine)"
+  },
+  "DIGITAL JUSTICE AND HUMAN RIGHTS IN ANGOLA": {
+   "category": "Inclusive Voices",
+   "source": "report p57 (Digital Justice and Human Rights in Ango)"
+  },
+  "Bora Entender": {
+   "category": "Trust Catalysts",
+   "source": "report p58 (Bora Entender)"
+  },
+  "Socio-educational Reporters": {
+   "category": "Inclusive Voices",
+   "source": "report p58 (Socio-educational Reporters)"
+  },
+  "“TUJENGE AMANI PAMOYA” Programme de dialogue intergénérationnel pour la confiance, la collaboration et la cohésion sociale": {
+   "category": "Dialogue Builders",
+   "source": "report p59 (Tujenge Amani Pamoya)"
+  },
+  "Terre et Femme – Communication publique inclusive pour les droits des femmes et l’environnement": {
+   "category": "Clarity in Action",
+   "source": "report p59 (Terre et Femme)"
+  },
+  "Denuncia.org": {
+   "category": "Clarity in Action",
+   "source": "report p60 (Denuncia.org)"
+  },
+  "Participación y Construcción Comunitaria de la Seguridad Ciudadana – “Modelo de Abordaje en Prevención Comunitaria de la Secretaria de Estado de Participación Ciudadana Tucumán – Argentina”": {
+   "category": "Dialogue Builders",
+   "source": "report p60 (Modelo de Abordaje)"
+  },
+  "Somos La Joya": {
+   "category": "Inclusive Voices",
+   "source": "report p61 (Somos La Joya)"
+  },
+  "Más Voz Menos Ruido": {
+   "category": "Dialogue Builders",
+   "source": "report p61 (Más Voz Menos Ruido)"
+  },
+  "Multiplicar las Voces": {
+   "category": "Inclusive Voices",
+   "source": "report p62 (Multiplicar las Voces)"
+  },
+  "\"Contraataque al dengue, ¡Unite a la misión!” Campaña educativa de prevención del dengue, zika y chikungunya.": {
+   "category": "Clarity in Action",
+   "source": "report p62 (Contraataque al Dengue)"
+  },
+  "Catarino, o estagiário sobrevivente": {
+   "category": "Exploring New Frontiers",
+   "source": "report p64 (Catarino, o estagiário sobrevivente)"
+  },
+  "Sagas Pernambucanas": {
+   "category": "Trust Catalysts",
+   "source": "report p64 (Sagas Pernambucanas)"
+  },
+  "Além da Lista": {
+   "category": "Clarity in Action",
+   "source": "report p64 (Além da Lista)"
+  },
+  "Campanha “Onde tem selo de transparência, a prefeitura vira referência - Transparência nos festejos juninos”.": {
+   "category": "Trust Catalysts",
+   "source": "report p64 (Campanha)"
+  },
+  "Website do Coletivo Autista da UFPB": {
+   "category": "Inclusive Voices",
+   "source": "report p65 (Website do Coletivo Autista da UFPB)"
+  },
+  "Visual, Humano e Acessível: O Novo Modelo de Comunicação": {
+   "category": "Exploring New Frontiers",
+   "source": "report p65 (Visual, Humano e Acessível: Modelo de Co)"
+  },
+  "Relatório de Gestão Integrado 2024 (RGI 2024 do MGI)": {
+   "category": "Trust Catalysts",
+   "source": "report p65 (Relatório de Gestão Integrado 2024)"
+  },
+  "Edital de Processo Seletivo de Estágio em Linguagem Simples": {
+   "category": "Clarity in Action",
+   "source": "report p65"
+  },
+  "Lições da Caatinga": {
+   "category": "Clarity in Action",
+   "source": "report p66 (Lições da Caatinga)"
+  },
+  "Editais para todos: simplificando o acesso a direitos": {
+   "category": "Clarity in Action",
+   "source": "report p66 (Editais para todos: simpliﬁcando o acess)"
+  },
+  "ABCDEnergia": {
+   "category": "Clarity in Action",
+   "source": "report p66 (ABCDEnergia)"
+  },
+  "O Admirável Mundo do Teletrabalho no Setor Público": {
+   "category": "Clarity in Action",
+   "source": "report p66 (O Admirável Mundo do Teletrabalho no Set)"
+  },
+  "Ondas de Inovação": {
+   "category": "Exploring New Frontiers",
+   "source": "report p67 (Ondas de Inovação)"
+  },
+  "SOCIAL MEDIA GOV": {
+   "category": "Trust Catalysts",
+   "source": "report p67 (Social Media Gov)"
+  },
+  "Redes Estaduais de Serviços Públicos para Simplificação e Transformação Digital orientadas ao cidadão": {
+   "category": "Clarity in Action",
+   "source": "report p67 (Redes Estaduais de Serviços Públicos par)"
+  },
+  "DECODIFICANDO DIREITOS E DEVERES: UM PROTÓTIPO DIGITAL SIMPLIFICANDO A LINGUAGEM DO CÓDIGO DE ÉTICA E CONDUTA DA EBSERH": {
+   "category": "Clarity in Action",
+   "source": "report p67 (Decodiﬁcando Direitos E Deveres: Um Prot)"
+  },
+  "Adoção é vínculo: comunicação pública para desmistificar a adoção e ampliar o acesso à Justiça": {
+   "category": "Clarity in Action",
+   "source": "report p68 (Adoção é Vínculo: Comunicação Pública pa)"
+  },
+  "Meu nome, Minha história: comunicação pública para garantir o direito à identidade e à dignidade de pessoas trans": {
+   "category": "Inclusive Voices",
+   "source": "report p68 (Meu nome, Minha história)"
+  },
+  "Projeto Foca no Direito 1ª Edição": {
+   "category": "Clarity in Action",
+   "source": "report p68 (Projeto Foca no Direito 1ª Edição)"
+  },
+  "JUDICIÁRIO EM EVIDÊNCIA": {
+   "category": "Trust Catalysts",
+   "source": "report p68 (Judiciário em Evidência)"
+  },
+  "FCB INDOOR": {
+   "category": "Clarity in Action",
+   "source": "report p69 (FCB Indoor)"
+  },
+  "Projeto Justiça de Olhos Abertos": {
+   "category": "Inclusive Voices",
+   "source": "report p69 (Projeto Justiça de Olhos Abertos)"
+  },
+  "Inovação preservando direitos: um caso real no sistema de justiça": {
+   "category": "Clarity in Action",
+   "source": "report p69 (Inovação Preservando Direitos)"
+  },
+  "Projeto Justiça em Libras": {
+   "category": "Inclusive Voices",
+   "source": "report p69 (Projeto Justiça em Libras)"
+  },
+  "TJCE Mobile": {
+   "category": "Exploring New Frontiers",
+   "source": "report p70 (TJCE Mobile)"
+  },
+  "Rio Conectado": {
+   "category": "Clarity in Action",
+   "source": "report p70 (Rio Conectado)"
+  },
+  "Nudepinho e Nudepinha": {
+   "category": "Clarity in Action",
+   "source": "report p70 (Nudepinho e Nudepinha)"
+  },
+  "CAPACITISMO OBSTÉTRICO: uma contracartilha para celebrar os direitos à maternidade das mulheres com deficiência": {
+   "category": "Inclusive Voices",
+   "source": "report p70"
+  },
+  "Justiça por Elas: Ações de Inovação, Comunicação e Proteção à Mulher Cearense": {
+   "category": "Inclusive Voices",
+   "source": "report p71 (Justiça por Elas)"
+  },
+  "Influciência": {
+   "category": "Exploring New Frontiers",
+   "source": "report p71 (Inﬂuciência)"
+  },
+  "Guia Fique Logada (Guide “Stay Linked up”)": {
+   "category": "Exploring New Frontiers",
+   "source": "report p71 (Guia Fique Logada)"
+  },
+  "Postagem Automática de Vídeos - Canal da Câmara no YouTube": {
+   "category": "Trust Catalysts",
+   "source": "report p71 (Postagem Automática de Vídeos,)"
+  },
+  "Guia Prático de Projetos": {
+   "category": "Clarity in Action",
+   "source": "report p72 (Guia Prático de Projetos)"
+  },
+  "Participação Popular": {
+   "category": "Trust Catalysts",
+   "source": "report p72 (Participação Popular)"
+  },
+  "Elas Pautam": {
+   "category": "Inclusive Voices",
+   "source": "report p72 (Elas Pautam)"
+  },
+  "Research": {
+   "category": "Clarity in Action",
+   "source": "report p72 (Research)"
+  },
+  "Juizado do Torcedor: o Judiciário presente no estádio para garantir direitos, prevenir conflitos e promover cidadania": {
+   "category": "Trust Catalysts",
+   "source": "report p73 (Juizado do Torcedor: o Judiciário presen)"
+  },
+  "Innovating for Impact: Digital Innovation for Media Sustainability in Fragile Democracies": {
+   "category": "Exploring New Frontiers",
+   "source": "report p73 (Innovating for Impact: Digital Innovatio)"
+  },
+  "Open Journalism Network": {
+   "category": "Exploring New Frontiers",
+   "source": "report p73 (Open Journalism Network)"
+  },
+  "GenZ(AI)": {
+   "category": "Exploring New Frontiers",
+   "source": "report p73 (GenZ (AI))"
+  },
+  "Hotsite Curió": {
+   "category": "Trust Catalysts",
+   "source": "report p74 (Hotsite Curió)"
+  },
+  "The International Parliament Engagement Network (IPEN)": {
+   "category": "Dialogue Builders",
+   "source": "report p74 (The International Parliament Engagement )"
+  },
+  "From Kitchens to Citizens: Indonesia's Nutrition Communication at Scale": {
+   "category": "Dialogue Builders",
+   "source": "report p74 (From Kitchens to Citizens: Indonesia's N)"
+  },
+  "The MDD, good governance and climate change project": {
+   "category": "Dialogue Builders",
+   "source": "report p74 (The MDD , Good Governance and Climate Ch)"
+  },
+  "Green Growth Along the River (Tam Tonle)": {
+   "category": "Inclusive Voices",
+   "source": "report p75 (Green Growth Along the River)"
+  },
+  "Information on Custody Hearings in Brazilian Indigenous Languages": {
+   "category": "Inclusive Voices",
+   "source": "report p75 (Information on Custody Hearings in Brazi)"
+  },
+  "Co-Creating Change with Educators: Inclusive Public Communication in India’s Public Education System": {
+   "category": "Inclusive Voices",
+   "source": "report p75 (Co-Creating Change with Educators)"
+  },
+  "Gobernanza participativa en zonas mineras": {
+   "category": "Dialogue Builders",
+   "source": "report p75 (Gobernanza Participativa en Zonas Minera)"
+  },
+  "HERRAMIENTAS PARA MODERNIZAR LA ESCRITURA EN LA UNIVERSIDAD NACIONAL DE CÓRDOBA: LA EXPERIENCIA DE ELABORACIÓN DEL MANUAL ESCRIBIR TEXTOS ADMINISTRATIVOS EN LA UNC CON PERSPECTIVA DE GÉNERO Y LENGUAJE JURÍDICO CLARO": {
+   "category": "Clarity in Action",
+   "source": "report p76 (Herramientas para modernizar la escritur)"
+  },
+  "CoLabora - Laboratorio de Innovación Pública de la Alcaldía de Bucaramanga": {
+   "category": "Trust Catalysts",
+   "source": "report p76 (CoLabora - Laboratorio de Innovación Púb)"
+  },
+  "Plataforma de divulgación de ciencia “IMAGiNA”": {
+   "category": "Clarity in Action",
+   "source": "report p76 (Plataforma de divulgación de ciencia \"IM)"
+  },
+  "Florece: Comunicación Pública para la Sostenibilidad y la Acción Comunitaria": {
+   "category": "Clarity in Action",
+   "source": "report p76 (Florece: Comunicación Pública para la So)"
+  },
+  "NovaBurocracIA El podcast de la innovación en la Administración Pública": {
+   "category": "Clarity in Action",
+   "source": "report p77 (NovaBurocracIA: El Podcast de la Innovac)"
+  },
+  "Minisite ORH Informa: Conoce y comparte todas las actividades que la ORH desarrolla para ti": {
+   "category": "Clarity in Action",
+   "source": "report p77 (Minisite ORH Informa: Conoce y comparte )"
+  },
+  "Mangle inc.": {
+   "category": "Exploring New Frontiers",
+   "source": "report p77 (Mangle inc.)"
+  },
+  "Visible lo Invisible": {
+   "category": "Inclusive Voices",
+   "source": "report p77 (Visible lo Invisible)"
+  },
+  "Impulso de las Microfinanzas en Paraguay, mediante incentivos competitivos para mejorar las condiciones de acceso al crédito de Mypes": {
+   "category": "Trust Catalysts",
+   "source": "report p78 (Impulso de las Microﬁnanzas en Paraguay)"
+  },
+  "\"Gobierno Digital\", innovación en comunicación pública para un Estado accesible y cercano": {
+   "category": "Clarity in Action",
+   "source": "report p78 (Gobierno Digital: Innovación en Comunica)"
+  },
+  "Libertades públicas": {
+   "category": "Dialogue Builders",
+   "source": "report p78 (Libertades Públicas)"
+  },
+  "Social Media Gov": {
+   "category": "Trust Catalysts",
+   "source": "report p67 (Social Media Gov)"
+  }
+ },
+ "propuestos": {
+  "Edital do Processo Eleitoral para Ouvidor Externo Geral da Defensoria Pública": {
+   "category": "Clarity in Action",
+   "source": "PROPUESTA (validar)",
+   "rationale": "Rediseño en lenguaje claro de un proceso de postulación; análogo al Edital de estágio em Linguagem Simples (Clarity, p65).",
+   "tier": "Mention"
+  },
+  "Programa jornalístico Conexões": {
+   "category": "Inclusive Voices",
+   "source": "PROPUESTA (validar)",
+   "rationale": "Noticiero con intérprete de Libras en pantalla igualitaria: acceso de personas sordas a la información pública.",
+   "tier": "Mention"
+  },
+  "Santo André pelo Clima - diálogos que transformam": {
+   "category": "Dialogue Builders",
+   "source": "PROPUESTA (validar)",
+   "rationale": "Política climática municipal construida mediante proceso participativo multiactor (\"diálogos que transformam\").",
+   "tier": "Mention"
+  },
+  "Caixa de Ferramentas do Linguagem Simples Lab": {
+   "category": "Clarity in Action",
+   "source": "PROPUESTA (validar)",
+   "rationale": "Caja de herramientas de lenguaje claro para instituciones; núcleo temático de Clarity in Action.",
+   "tier": "Mention"
+  },
+  "Expressão Nacional": {
+   "category": "Dialogue Builders",
+   "source": "PROPUESTA (validar)",
+   "rationale": "Programa de debate multiplataforma que reúne legisladores, expertos, sociedad civil y ciudadanía.",
+   "tier": "Mention"
+  },
+  "U=U Dance Challenge": {
+   "category": "Exploring New Frontiers",
+   "source": "PROPUESTA (validar)",
+   "rationale": "Formato nativo digital (challenge musical en redes) para comunicar consenso científico; análogo a los casos ENF de formatos digitales.",
+   "tier": "Mention"
+  },
+  "From dialogue to decisions: AI-supported participatory social planning (Siegen‑Wittgenstein District, Germany, 2024)": {
+   "category": "Dialogue Builders",
+   "source": "PROPUESTA (validar)",
+   "rationale": "El corazón es la deliberación participativa (10 conferencias municipales); la IA es soporte. Alternativa defendible: Exploring New Frontiers.",
+   "tier": "Mention"
+  },
+  "Creación de micrositio web: redacta simple unc": {
+   "category": "Clarity in Action",
+   "source": "PROPUESTA (validar)",
+   "rationale": "Micrositio de redacción simple/lenguaje claro (UNC); mismo eje que \"Herramientas para modernizar la escritura\" (Clarity). Sin descripción en el Excel.",
+   "tier": "Mention"
+  },
+  "REE SI! Red de Empoderamiento y Educación Sexual Integral": {
+   "category": "Inclusive Voices",
+   "source": "PROPUESTA (validar)",
+   "rationale": "Red de promotores juveniles pares para educación sexual integral: voz y empoderamiento de poblaciones jóvenes.",
+   "tier": "Mention"
+  }
+ }
+}

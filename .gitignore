@@ -1,0 +1,14 @@
+# Insumos del cliente (pesados / material fuente, no publicables)
+Insumos/
+
+# Wireframe de referencia (10 MB, insumo)
+Atlas of Innovation - Case Repository (offline).html
+
+# Cache de vendor del build standalone
+tools/vendor/
+
+# Temporales
+*.pyc
+__pycache__/
+Thumbs.db
+desktop.ini
