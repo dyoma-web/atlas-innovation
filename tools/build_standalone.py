@@ -94,7 +94,11 @@ def main():
             b64 = base64.b64encode(open(os.path.join(img_dir, f), 'rb').read()).decode('ascii')
             img_entries.append(f"  {f[:-4]}: 'data:image/jpeg;base64,{b64}'")
     images_js = 'window.ATLAS_IMAGES = {\n' + ',\n'.join(img_entries) + '\n};'
-    print(f'imágenes embebidas: {len(img_entries)}')
+    logo_path = os.path.join(ROOT, 'assets', 'img', 'logos-white.png')
+    if os.path.exists(logo_path):
+        logo_b64 = base64.b64encode(open(logo_path, 'rb').read()).decode('ascii')
+        images_js += f"\nwindow.ATLAS_LOGO = 'data:image/png;base64,{logo_b64}';"
+    print(f'imágenes embebidas: {len(img_entries)} + logo')
 
     html = f'''<!DOCTYPE html>
 <html lang="en">

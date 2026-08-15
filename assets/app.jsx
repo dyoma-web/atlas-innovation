@@ -31,11 +31,18 @@ const STR = {
     kpiRegions: 'UNDP REGIONS', kpiLangs: 'SUBMISSION LANGUAGES',
     howTitle: 'How the cases are organised',
     howText: 'Every case belongs to one of five thematic categories and to one of three visibility levels, which determine how much detail the repository entry carries.',
-    spotEyebrow: 'HIGHEST VISIBILITY LEVEL', spotTitle: 'Spotlight cases',
-    spotText: 'Twenty initiatives selected for extended treatment: full narrative, signs of impact and supporting visual material.',
+    tierDefs: {
+      'Spotlight': 'Selected for extended treatment: full narrative, signs of impact and supporting visual material.',
+      'High visibility': 'Full entry: short description, long-form case text and links.',
+      'Noteworthy': 'Brief entry: name, organisation, country and short description.'
+    },
+    spotEyebrow: 'HIGHEST VISIBILITY LEVEL', spotTitle: 'Spotlighted cases',
+    spotText: 'Twenty initiatives were carefully reviewed and selected as spotlighted cases, based on their unique approach to public communication. As innovative solutions of working with public institutions or of public institutions to communicate matters of public interest, these hope to inspire future action.',
     mapTitle: 'Cases by country', mapText: 'Select a country to filter the repository below.',
     mapLegend: 'CASES', mapNone: 'no cases', mapMost: 'MOST REPRESENTED',
     mapNote: 'Two records are not tied to a single country: one regional Asia-Pacific network and one Germany / United Kingdom initiative.',
+    mapBrazilCallout: n => `Brazil · ${n} cases`,
+    mapBrazilShare: (n, pct) => `${n} cases — ${pct}% of the repository. Shown separately so differences among the other countries stay visible.`,
     allTitle: 'All cases', showing: (a, b) => `SHOWING ${a} OF ${b} CASES`,
     searchPh: 'Search by initiative, organisation, country or keyword',
     fRegion: 'Region', fCountry: 'Country', fType: 'Institution type', fCategory: 'Category',
@@ -50,7 +57,7 @@ const STR = {
     noDetails: 'Noteworthy entries carry the short description only. No long-form text was submitted for this case.',
     descPending: 'Short description pending in the dataset.',
     langNames: { Portuguese: 'Portuguese', Spanish: 'Spanish', English: 'English', French: 'French' },
-    tierNames: { 'Spotlight': 'Spotlight', 'High visibility': 'High visibility', 'Noteworthy': 'Noteworthy' },
+    tierNames: { 'Spotlight': 'Spotlighted', 'High visibility': 'High visibility', 'Noteworthy': 'Noteworthy' },
     close: 'Close', esFallback: ''
   },
   es: {
@@ -58,11 +65,18 @@ const STR = {
     kpiRegions: 'REGIONES PNUD', kpiLangs: 'IDIOMAS DE POSTULACIÓN',
     howTitle: 'Cómo se organizan los casos',
     howText: 'Cada caso pertenece a una de cinco categorías temáticas y a uno de tres niveles de visibilidad, que determinan el nivel de detalle de su entrada en el repositorio.',
-    spotEyebrow: 'NIVEL MÁS ALTO DE VISIBILIDAD', spotTitle: 'Casos Spotlight',
-    spotText: 'Veinte iniciativas seleccionadas para tratamiento ampliado: narrativa completa, señales de impacto y material visual de apoyo.',
+    tierDefs: {
+      'Spotlight': 'Selección con tratamiento ampliado: narrativa completa, señales de impacto y material visual de apoyo.',
+      'High visibility': 'Entrada completa: descripción corta, texto extenso del caso y enlaces.',
+      'Noteworthy': 'Entrada breve: nombre, organización, país y descripción corta.'
+    },
+    spotEyebrow: 'NIVEL MÁS ALTO DE VISIBILIDAD', spotTitle: 'Casos Spotlighted',
+    spotText: 'Veinte iniciativas fueron cuidadosamente revisadas y seleccionadas como casos spotlighted por su enfoque único de la comunicación pública. Como soluciones innovadoras que trabajan con instituciones públicas —o desde ellas— para comunicar asuntos de interés público, buscan inspirar acciones futuras.',
     mapTitle: 'Casos por país', mapText: 'Selecciona un país para filtrar el repositorio.',
     mapLegend: 'CASOS', mapNone: 'sin casos', mapMost: 'MÁS REPRESENTADOS',
     mapNote: 'Dos registros no corresponden a un solo país: una red regional de Asia-Pacífico y una iniciativa Alemania / Reino Unido.',
+    mapBrazilCallout: n => `Brasil · ${n} casos`,
+    mapBrazilShare: (n, pct) => `${n} casos — ${pct}% del repositorio. Se muestra aparte para que las diferencias entre los demás países sigan siendo visibles.`,
     allTitle: 'Todos los casos', showing: (a, b) => `MOSTRANDO ${a} DE ${b} CASOS`,
     searchPh: 'Busca por iniciativa, organización, país o palabra clave',
     fRegion: 'Región', fCountry: 'País', fType: 'Tipo de institución', fCategory: 'Categoría',
@@ -77,7 +91,7 @@ const STR = {
     noDetails: 'Las entradas Noteworthy llevan solo la descripción corta. Este caso no envió texto extenso.',
     descPending: 'Descripción corta pendiente en el dataset.',
     langNames: { Portuguese: 'Portugués', Spanish: 'Español', English: 'Inglés', French: 'Francés' },
-    tierNames: { 'Spotlight': 'Spotlight', 'High visibility': 'Alta visibilidad', 'Noteworthy': 'Noteworthy' },
+    tierNames: { 'Spotlight': 'Spotlighted', 'High visibility': 'Alta visibilidad', 'Noteworthy': 'Noteworthy' },
     close: 'Cerrar', esFallback: '(texto disponible solo en inglés)'
   }
 };
@@ -130,9 +144,13 @@ function StatsBand({ cases }) {
     [new Set(cases.map(c => c.region.en)).size, t.kpiRegions],
     [new Set(cases.map(c => c.lang)).size, t.kpiLangs]
   ];
+  const logo = window.ATLAS_LOGO || 'assets/img/logos-white.png';
   return (
     <section style={{ position: 'relative', background: 'var(--deep-ocean)', overflow: 'hidden', borderRadius: 'var(--r-xl)' }}>
       <div className="atlas-texture atlas-texture--light" aria-hidden="true" style={{ opacity: .16 }}></div>
+      <div style={{ position: 'relative', display: 'flex', justifyContent: 'flex-end', padding: '20px 26px 16px' }}>
+        <img src={logo} alt="UNDP · Catálise" style={{ height: 34, width: 'auto' }} />
+      </div>
       <div className="atlas-grid atlas-grid--stats" style={{ position: 'relative', background: 'rgba(255,255,255,.16)' }}>
         {kpis.map(([n, label]) => (
           <div key={label} style={{ background: 'rgba(14,68,120,.72)', padding: '24px 26px' }}>
@@ -166,6 +184,17 @@ function CategoryBand({ cases, filters, setF }) {
               <div style={{ marginTop: 10, fontSize: 13, fontWeight: 500, lineHeight: 1.35 }}>{k}</div>
             </div>
           </button>
+        ))}
+      </div>
+      <div className="atlas-grid atlas-grid--high" style={{ marginTop: 26 }}>
+        {TIER_ORDER.map(tier => (
+          <div key={tier} style={{ display: 'flex', gap: 11, alignItems: 'flex-start', padding: '14px 16px', background: 'var(--bg-soft)', borderRadius: 'var(--r-sm)' }}>
+            <span aria-hidden="true" style={{ flex: 'none', width: 9, height: 9, borderRadius: '50%', background: TIER_DOT[tier], marginTop: 5 }}></span>
+            <div style={{ fontSize: 12.5, lineHeight: 1.55, color: 'var(--text)' }}>
+              <span style={{ fontFamily: 'var(--sans-display)', fontWeight: 700, color: 'var(--ink)' }}>{t.tierNames[tier]}</span>
+              {' — '}{t.tierDefs[tier]}
+            </div>
+          </div>
         ))}
       </div>
     </section>
@@ -225,7 +254,7 @@ function SpotlightSection({ cases, openCase }) {
   );
 }
 
-function WorldMap({ counts, selected, onPick }) {
+function WorldMap({ counts, selected, onPick, brazilLabel }) {
   const ref = useRef(null);
   useEffect(() => {
     const el = ref.current;
@@ -241,12 +270,16 @@ function WorldMap({ counts, selected, onPick }) {
     const path = d3.geoPath(projection);
     const numToIso = {};
     Object.keys(ISO_NUM).forEach(iso => { numToIso[ISO_NUM[iso]] = iso; });
-    const color = n => n >= 40 ? 'var(--map-40)' : n >= 8 ? 'var(--map-8-39)' : n >= 3 ? 'var(--map-3-7)' : n === 2 ? 'var(--map-2)' : n === 1 ? 'var(--map-1)' : 'var(--map-none)';
+    // Brasil concentra la mayoría de casos: se pinta y anota aparte, y la escala
+    // de color se calcula SOLO con los demás países para que sus diferencias se vean.
+    const color = (n, iso) => iso === 'BR' ? 'var(--map-40)'
+      : n >= 6 ? 'var(--map-8-39)' : n >= 3 ? 'var(--map-3-7)'
+      : n === 2 ? 'var(--map-2)' : n === 1 ? 'var(--map-1)' : 'var(--map-none)';
     svg.append('g').selectAll('path').data(world.features).join('path')
       .attr('d', path)
       .attr('fill', d => {
         const iso = numToIso[String(d.id).padStart(3, '0')];
-        return color(iso ? (counts[iso] || 0) : 0);
+        return color(iso ? (counts[iso] || 0) : 0, iso);
       })
       .attr('stroke', '#fff').attr('stroke-width', .6)
       .attr('cursor', d => numToIso[String(d.id).padStart(3, '0')] && counts[numToIso[String(d.id).padStart(3, '0')]] ? 'pointer' : 'default')
@@ -265,12 +298,34 @@ function WorldMap({ counts, selected, onPick }) {
         const n = iso ? (counts[iso] || 0) : 0;
         return `${d.properties.name}: ${n}`;
       });
-  }, [counts, selected]);
+    // Callout de Brasil: flecha desde el país hacia una etiqueta con su cifra
+    const brazil = world.features.find(d => String(d.id).padStart(3, '0') === '076');
+    if (brazil && brazilLabel) {
+      const [cx, cy] = path.centroid(brazil);
+      const lx = cx + width * .12, ly = cy + height * .16;
+      const g = svg.append('g').attr('cursor', 'pointer')
+        .on('click', () => onPick('BR'));
+      g.append('line').attr('x1', cx + 8).attr('y1', cy + 8).attr('x2', lx - 4).attr('y2', ly - 9)
+        .attr('stroke', 'var(--deep-ocean)').attr('stroke-width', 1.2);
+      const label = g.append('g');
+      const text = label.append('text')
+        .attr('x', lx + 10).attr('y', ly + 4)
+        .attr('font-family', 'var(--sans-display)').attr('font-size', 11.5)
+        .attr('font-weight', 700).attr('fill', '#fff')
+        .text(brazilLabel);
+      const tw = text.node().getComputedTextLength ? text.node().getComputedTextLength() : brazilLabel.length * 6.4;
+      label.insert('rect', 'text')
+        .attr('x', lx).attr('y', ly - 10).attr('rx', 10)
+        .attr('width', tw + 20).attr('height', 21)
+        .attr('fill', 'var(--deep-ocean)');
+      g.append('title').text(brazilLabel);
+    }
+  }, [counts, selected, brazilLabel]);
   return <div ref={ref} style={{ width: '100%' }}></div>;
 }
 
 function MapSection({ cases, filtered, filters, setF }) {
-  const { t } = useI18n();
+  const { t, lang } = useI18n();
   const L = useL();
   const counts = useMemo(() => {
     const m = {};
@@ -281,15 +336,19 @@ function MapSection({ cases, filtered, filters, setF }) {
     const m = {};
     cases.forEach(c => { m[c.country.en] = (m[c.country.en] || 0) + 1; });
     return Object.keys(m).map(k => ({ key: k, n: m[k], obj: cases.find(c => c.country.en === k).country, iso: cases.find(c => c.country.en === k).iso }))
-      .sort((a, b) => b.n - a.n).slice(0, 9);
+      .sort((a, b) => b.n - a.n);
   }, [cases]);
-  const max = byCountry.length ? byCountry[0].n : 1;
+  // Brasil se muestra aparte (concentra la mayoría); las barras solo comparan al resto
+  const brazil = byCountry.find(r => r.iso === 'BR');
+  const others = byCountry.filter(r => r.iso !== 'BR').slice(0, 8);
+  const max = others.length ? others[0].n : 1;
+  const brazilPct = brazil ? Math.round(brazil.n / cases.length * 100) : 0;
   const selIso = useMemo(() => {
     if (!filters.country) return '';
     const c = cases.find(x => x.country.en === filters.country);
     return c ? c.iso : '';
   }, [filters.country, cases]);
-  const legend = [['var(--map-1)', '1'], ['var(--map-2)', '2'], ['var(--map-3-7)', '3–7'], ['var(--map-8-39)', '8–39'], ['var(--map-40)', '40+'], ['var(--map-none)', t.mapNone]];
+  const legend = [['var(--map-1)', '1'], ['var(--map-2)', '2'], ['var(--map-3-7)', '3–5'], ['var(--map-8-39)', '6+'], ['var(--map-40)', lang === 'es' ? 'Brasil' : 'Brazil'], ['var(--map-none)', t.mapNone]];
   return (
     <section id="atlas-map" style={{ marginTop: 84 }}>
       <div className="atlas-card" style={{ borderRadius: 'var(--r-xl)', overflow: 'hidden' }}>
@@ -298,6 +357,7 @@ function MapSection({ cases, filtered, filters, setF }) {
             <h2 className="atlas-h2" style={{ marginBottom: 6 }}>{t.mapTitle}</h2>
             <p style={{ margin: '0 0 22px', fontSize: 13.5, color: 'var(--text)' }}>{t.mapText}</p>
             <WorldMap counts={counts} selected={selIso}
+              brazilLabel={brazil ? t.mapBrazilCallout(brazil.n) : ''}
               onPick={iso => {
                 const c = cases.find(x => x.iso === iso);
                 if (c) setF('country', c.country.en);
@@ -314,8 +374,18 @@ function MapSection({ cases, filtered, filters, setF }) {
           </div>
           <div style={{ padding: '34px 30px', background: 'var(--bg-soft)' }}>
             <div className="atlas-eyebrow" style={{ marginBottom: 20 }}>{t.mapMost}</div>
+            {brazil && (
+              <button onClick={() => setF('country', brazil.key)}
+                style={{ display: 'block', width: '100%', textAlign: 'left', cursor: 'pointer', border: 0, background: 'var(--deep-ocean)', borderRadius: 'var(--r-sm)', padding: '14px 16px', marginBottom: 18 }}>
+                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', gap: 12 }}>
+                  <span style={{ fontFamily: 'var(--sans-display)', fontWeight: 700, fontSize: 15, color: '#fff' }}>{L(brazil.obj)}</span>
+                  <span className="atlas-mono" style={{ color: '#9dc0dd', fontSize: 13 }}>{brazil.n}</span>
+                </div>
+                <div style={{ marginTop: 6, fontSize: 11.5, lineHeight: 1.55, color: '#cfe1f0' }}>{t.mapBrazilShare(brazil.n, brazilPct)}</div>
+              </button>
+            )}
             <div style={{ display: 'flex', flexDirection: 'column', gap: 13 }}>
-              {byCountry.map(r => (
+              {others.map(r => (
                 <button key={r.key} onClick={() => setF('country', r.key)}
                   style={{ border: 0, background: 'transparent', padding: 0, textAlign: 'left', cursor: 'pointer', display: 'block' }}>
                   <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', gap: 12, marginBottom: 5 }}>
@@ -437,8 +507,9 @@ function Repository({ cases, results, filters, setF, q, setQ, clearAll, openCase
                   <div className="atlas-mono" style={{ fontSize: 10.5 }}>{c.no}</div>
                   <h4 style={{ margin: 0, fontFamily: 'var(--sans-display)', fontWeight: 600, fontSize: 15.5, lineHeight: 1.28, color: 'var(--ink)' }}>{trunc(c.name, 62)}</h4>
                   <div style={{ fontSize: 12, color: 'var(--muted)', lineHeight: 1.45 }}>{c.org}</div>
-                  <div style={{ marginTop: 'auto', paddingTop: 6 }}>
+                  <div style={{ marginTop: 'auto', paddingTop: 6, display: 'flex', gap: 6, flexWrap: 'wrap' }}>
                     <span className="atlas-tag atlas-tag--neutral" style={{ fontSize: 10.5 }}>{L(c.country)}</span>
+                    {c.category && <span className="atlas-tag atlas-tag--cat" style={{ background: CAT_COLORS[c.category], fontSize: 10.5 }}>{c.category}</span>}
                   </div>
                 </article>
               ))}
@@ -469,6 +540,9 @@ function Repository({ cases, results, filters, setF, q, setQ, clearAll, openCase
                   <span style={{ fontFamily: 'var(--sans-display)', fontWeight: 600, fontSize: 14.5, lineHeight: 1.35, color: 'var(--ink)' }}>{c.name}</span>
                   <span className="atlas-row-org" style={{ fontSize: 12.5, color: 'var(--muted)', lineHeight: 1.4 }}>{c.org}</span>
                   <span className="atlas-row-country" style={{ fontSize: 12, fontWeight: 600 }}>{L(c.country)}</span>
+                  <span className="atlas-row-cat">
+                    {c.category && <span className="atlas-tag atlas-tag--cat" style={{ background: CAT_COLORS[c.category], fontSize: 10.5 }}>{c.category}</span>}
+                  </span>
                   <span aria-hidden="true" style={{ fontSize: 13, color: '#b9cdd9', textAlign: 'right' }}>→</span>
                 </button>
               ))}

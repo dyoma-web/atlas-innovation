@@ -30,6 +30,27 @@ OUT = os.path.join(ROOT, 'assets', 'cases.js')
 
 TIER_MAP = {'Top': 'Spotlight', 'High Visibility': 'High visibility', 'Mention': 'Noteworthy'}
 
+# Títulos para mostrar (Comentarios Atlas.docx 2026-08-15): acortar subtítulos de
+# VALUEbot y Voix des Survivants, y normalizar los títulos TODO EN MAYÚSCULAS.
+# La clave es el nombre EXACTO del Excel (que sigue siendo la llave para las
+# categorías); el valor es el nombre publicado.
+NAME_OVERRIDES = {
+    'VALUEbot : Una plataforma generadora de chatbots mediante IA para la comunicación del valor público del PSM':
+        'VALUEbot',
+    'Voix des Survivants : une communication publique participative pour la justice et la paix au Kivu(Est de la RDCongo)':
+        'Voix des Survivants',
+    'ECOS DE CIENAGA ORO': 'Ecos de Ciénaga de Oro',
+    'EXTRA FAVELAS': 'Extra Favelas',
+    'DIGITAL JUSTICE AND HUMAN RIGHTS IN ANGOLA': 'Digital Justice and Human Rights in Angola',
+    'SOCIAL MEDIA GOV': 'Social Media Gov',
+    'DECODIFICANDO DIREITOS E DEVERES: UM PROTÓTIPO DIGITAL SIMPLIFICANDO A LINGUAGEM DO CÓDIGO DE ÉTICA E CONDUTA DA EBSERH':
+        'Decodificando Direitos e Deveres: um protótipo digital simplificando a linguagem do Código de Ética e Conduta da EBSERH',
+    'JUDICIÁRIO EM EVIDÊNCIA': 'Judiciário em Evidência',
+    'FCB INDOOR': 'FCB Indoor',
+    'HERRAMIENTAS PARA MODERNIZAR LA ESCRITURA EN LA UNIVERSIDAD NACIONAL DE CÓRDOBA: LA EXPERIENCIA DE ELABORACIÓN DEL MANUAL ESCRIBIR TEXTOS ADMINISTRATIVOS EN LA UNC CON PERSPECTIVA DE GÉNERO Y LENGUAJE JURÍDICO CLARO':
+        'Herramientas para modernizar la escritura en la Universidad Nacional de Córdoba: la experiencia de elaboración del manual Escribir textos administrativos en la UNC con perspectiva de género y lenguaje jurídico claro',
+}
+
 COUNTRY_ES = {
     'Angola': 'Angola', 'Argentina': 'Argentina', 'Benin': 'Benín', 'Brazil': 'Brasil',
     'Cambodia': 'Camboya', 'Canada': 'Canadá',
@@ -115,7 +136,7 @@ def main():
             'region': {'en': ref['region'], 'es': REGION_ES[ref['region']]},
             'country': {'en': country_en, 'es': COUNTRY_ES.get(country_en, country_en)},
             'type': {'en': ref['type'], 'es': TYPE_ES.get(ref['type'], ref['type'])},
-            'name': name,
+            'name': NAME_OVERRIDES.get(name, name),
             'org': clean(row[2]),
             'desc': {'en': clean(row[5]) or None, 'es': tr.get('desc') or None},
             'details': {'en': clean(row[6]) or None, 'es': tr.get('details') or None},

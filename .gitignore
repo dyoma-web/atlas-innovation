@@ -1,5 +1,7 @@
 # Insumos del cliente (pesados / material fuente, no publicables)
 Insumos/
+Logos/
+*.docx
 
 # Wireframe de referencia (10 MB, insumo)
 Atlas of Innovation - Case Repository (offline).html
