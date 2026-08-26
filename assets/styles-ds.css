@@ -1,0 +1,205 @@
+/* ==========================================================================
+   Atlas of Innovation — v2 sobre el UNDP Design System
+   CSS complementario. El Drupal de undp.org ya carga base-minimal.min.css y
+   components.min.css del DS; aquí solo va lo que el DS no cubre.
+   Todo bajo .atlas-ds · clases propias con prefijo atlds- · tokens --undpds-*
+   (patrón de la entrega v2 de Soluciones Integrales)
+   ========================================================================== */
+.atlas-ds {
+  /* Defecto conocido del DS: --undpds-color-blue-800 no existe */
+  --undpds-color-blue-800: #1f5a95;
+  color: var(--undpds-color-text-default);
+  font-family: var(--undpds-font-family-primary);
+  word-break: break-word;
+}
+.atlas-ds *:focus-visible {
+  outline: 2px solid var(--undpds-color-blue-700);
+  outline-offset: 2px;
+  box-shadow: none;
+}
+.atlas-ds section { margin-block-end: var(--undpds-spacing-10); }
+.atlas-ds .atlds-wrap { max-width: 82.5rem; margin-inline: auto; }
+
+/* Tipografía de apoyo */
+.atlas-ds .atlds-h { font-size: var(--undpds-font-size-32); line-height: 1.15; margin-block-end: var(--undpds-spacing-04); }
+.atlas-ds .atlds-h--xl { font-size: var(--undpds-font-size-40); }
+.atlas-ds .atlds-lead { max-width: 72ch; margin-block-end: var(--undpds-spacing-06); }
+.atlas-ds .atlds-eyebrow {
+  font-size: var(--undpds-font-size-14); font-weight: 700; letter-spacing: .03em;
+  text-transform: uppercase; color: var(--undpds-color-gray-600);
+  margin-block-end: var(--undpds-spacing-03);
+}
+.atlas-ds .atlds-note { font-size: var(--undpds-font-size-14); color: var(--undpds-color-gray-600); max-width: 72ch; }
+.atlas-ds .atlds-dot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-inline-end: var(--undpds-spacing-02); flex: none; }
+.atlas-ds .atlds-kicker { font-size: var(--undpds-font-size-14); color: var(--undpds-color-gray-600); margin-block-end: var(--undpds-spacing-03); }
+
+/* Selector de idioma (solo mockup; en el embed data-lang lo oculta) */
+.atlas-ds .atlds-lang { display: flex; gap: var(--undpds-spacing-02); justify-content: flex-end; margin-block-end: var(--undpds-spacing-05); }
+.atlas-ds .atlds-lang .chip { cursor: pointer; font: inherit; font-size: var(--undpds-font-size-14); }
+.atlas-ds .atlds-lang .atlds-lang--on { background: var(--undpds-color-gray-700); color: var(--undpds-color-white); }
+
+/* --- Franja de logos + cifras (Stats Cards del DS) ----------------------- */
+.atlas-ds .atlds-logoband {
+  background: var(--undpds-color-gray-700);
+  padding: var(--undpds-spacing-05) var(--undpds-spacing-06);
+  display: flex; justify-content: flex-end;
+}
+.atlas-ds .atlds-logoband img { height: 2.125rem; width: auto; display: block; }
+.atlas-ds .atlds-stats { display: flex; flex-wrap: wrap; gap: 2px; }
+.atlas-ds .atlds-stats__card { flex: 1 1 10rem; max-width: none; padding: var(--undpds-spacing-06); }
+.atlas-ds .atlds-stats__card h2 { font-variant-numeric: tabular-nums; margin: 0 0 var(--undpds-spacing-02); }
+.atlas-ds .atlds-stats__card p { margin: 0; font-size: var(--undpds-font-size-14); text-transform: uppercase; letter-spacing: .03em; color: var(--undpds-color-gray-600); }
+
+/* --- Categorías (botones con barra de color de datos) --------------------- */
+.atlas-ds .atlds-cats { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: var(--undpds-spacing-04); }
+@media (max-width: 63.9375em) { .atlas-ds .atlds-cats { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+@media (max-width: 47.9375em) { .atlas-ds .atlds-cats { grid-template-columns: 1fr; } }
+.atlas-ds .atlds-cat {
+  font: inherit; text-align: left; cursor: pointer; padding: 0 0 var(--undpds-spacing-04);
+  background: var(--undpds-color-white); border: 1px solid var(--undpds-color-border-subtle);
+}
+.atlas-ds .atlds-cat:hover { background: var(--undpds-color-surface-default); }
+.atlas-ds .atlds-cat.is-active { border-color: var(--undpds-color-gray-700); box-shadow: inset 0 0 0 1px var(--undpds-color-gray-700); }
+.atlas-ds .atlds-cat__bar { display: block; height: 6px; margin-block-end: var(--undpds-spacing-04); }
+.atlas-ds .atlds-cat__n { display: block; font-size: var(--undpds-font-size-32); font-weight: 700; line-height: 1; padding-inline: var(--undpds-spacing-04); font-variant-numeric: tabular-nums; }
+.atlas-ds .atlds-cat__label { display: block; padding: var(--undpds-spacing-02) var(--undpds-spacing-04) 0; font-size: var(--undpds-font-size-14); font-weight: 600; }
+.atlas-ds .atlds-tierdefs { list-style: none; margin: var(--undpds-spacing-06) 0 0; padding: 0; display: grid; gap: var(--undpds-spacing-03); }
+@media (min-width: 64em) { .atlas-ds .atlds-tierdefs { grid-template-columns: repeat(3, 1fr); } }
+.atlas-ds .atlds-tierdefs li {
+  display: flex; gap: var(--undpds-spacing-03); align-items: flex-start; margin: 0;
+  padding: var(--undpds-spacing-04); background: var(--undpds-color-surface-default);
+  font-size: var(--undpds-font-size-14); line-height: 1.5;
+}
+.atlas-ds .atlds-tierdefs .atlds-dot { margin-top: 5px; }
+
+/* --- Content Cards (casos) ------------------------------------------------ */
+.atlas-ds .atlds-grid > .cell { margin-bottom: var(--undpds-spacing-07); }
+.atlas-ds .atlds-card { height: 100%; background: var(--undpds-color-white); }
+.atlas-ds .atlds-card > a { cursor: pointer; display: block; height: 100%; background-image: none; text-decoration: none; color: inherit; }
+.atlas-ds .atlds-card__img { aspect-ratio: 16 / 9; overflow: hidden; background: var(--undpds-color-gray-200); }
+.atlas-ds .atlds-card__img img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.atlas-ds .atlds-card__img--brand {
+  display: grid; align-items: end; background: var(--undpds-color-gray-700);
+  padding: var(--undpds-spacing-05);
+}
+.atlas-ds .atlds-card__img--brand span { color: var(--undpds-color-white); font-size: var(--undpds-font-size-24); font-weight: 700; line-height: 1.1; }
+.atlas-ds .atlds-card__body { padding: var(--undpds-spacing-05); }
+.atlas-ds .atlds-card__body h5 { font-size: var(--undpds-font-size-20); line-height: 1.2; margin: 0 0 var(--undpds-spacing-03); }
+.atlas-ds .atlds-card__meta { font-size: var(--undpds-font-size-14); color: var(--undpds-color-gray-600); margin: 0 0 var(--undpds-spacing-03); }
+.atlas-ds .atlds-card__desc { font-size: var(--undpds-font-size-16); margin: 0 0 var(--undpds-spacing-04); }
+.atlas-ds .atlds-card .cta__link { background-image: none; font-weight: 700; }
+
+/* --- Mapa y distribución -------------------------------------------------- */
+.atlas-ds .atlds-dash { display: grid; gap: var(--undpds-spacing-07); }
+@media (min-width: 64em) { .atlas-ds .atlds-dash { grid-template-columns: 3fr 2fr; } }
+.atlas-ds .atlds-map { background: var(--undpds-color-surface-default); }
+.atlas-ds .atlds-legend { display: flex; flex-wrap: wrap; gap: var(--undpds-spacing-05); list-style: none; margin: var(--undpds-spacing-04) 0 0; padding: 0; font-size: var(--undpds-font-size-14); }
+.atlas-ds .atlds-legend li { display: flex; align-items: center; gap: var(--undpds-spacing-02); margin: 0; padding: 0; }
+.atlas-ds .atlds-swatch { display: inline-block; width: 1.05rem; height: 1.05rem; }
+.atlas-ds .atlds-panel { border-top: 2px solid var(--undpds-color-border-default); padding-top: var(--undpds-spacing-05); }
+.atlas-ds .atlds-brazil {
+  display: block; width: 100%; text-align: left; cursor: pointer; font: inherit;
+  background: var(--undpds-color-gray-700); color: var(--undpds-color-white);
+  border: 0; padding: var(--undpds-spacing-04) var(--undpds-spacing-05);
+  margin-block-end: var(--undpds-spacing-05);
+}
+.atlas-ds .atlds-brazil__row { display: flex; justify-content: space-between; gap: var(--undpds-spacing-04); font-size: var(--undpds-font-size-20); }
+.atlas-ds .atlds-brazil__note { display: block; margin-top: var(--undpds-spacing-02); font-size: var(--undpds-font-size-14); color: var(--undpds-color-gray-300); }
+.atlas-ds .atlds-ranking { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--undpds-spacing-04); }
+.atlas-ds .atlds-ranking li { margin: 0; padding: 0; }
+.atlas-ds .atlds-ranking button { display: block; width: 100%; border: 0; background: transparent; padding: 0; cursor: pointer; font: inherit; text-align: left; }
+.atlas-ds .atlds-ranking__row { display: flex; justify-content: space-between; gap: var(--undpds-spacing-04); margin-block-end: var(--undpds-spacing-02); font-variant-numeric: tabular-nums; }
+.atlas-ds .atlds-ranking__track { display: block; height: 6px; background: var(--undpds-color-gray-200); }
+.atlas-ds .atlds-ranking__track span { display: block; height: 100%; background: var(--undpds-color-blue-600); }
+.atlas-ds .atlds-panel .atlds-note { margin-top: var(--undpds-spacing-05); padding-top: var(--undpds-spacing-04); border-top: 1px solid var(--undpds-color-border-subtle); }
+
+/* --- Búsqueda y filtros (Input Fields + Select del DS) -------------------- */
+.atlas-ds .atlds-allhead { display: flex; align-items: baseline; justify-content: space-between; gap: var(--undpds-spacing-05); flex-wrap: wrap; }
+.atlas-ds .atlds-count { font-size: var(--undpds-font-size-14); text-transform: uppercase; letter-spacing: .03em; color: var(--undpds-color-gray-600); }
+.atlas-ds .atlds-filters {
+  display: grid; gap: var(--undpds-spacing-05);
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  padding: var(--undpds-spacing-06); background: var(--undpds-color-surface-default);
+  margin-block-end: var(--undpds-spacing-06);
+}
+@media (max-width: 63.9375em) { .atlas-ds .atlds-filters { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 47.9375em) { .atlas-ds .atlds-filters { grid-template-columns: 1fr; } }
+.atlas-ds .atlds-filters__search { grid-column: 1 / -1; }
+.atlas-ds .atlds-filters label { display: block; margin-block-end: var(--undpds-spacing-02); font-weight: 600; font-size: var(--undpds-font-size-14); }
+.atlas-ds .atlds-filters input[type="search"] { margin: 0; height: 46px; width: 100%; }
+/* select-default del DS: 46 px y sin mayúsculas para valores de datos (override justificado) */
+.atlas-ds .atlds-filters .select-default {
+  margin: 0; height: 46px; width: 100%;
+  padding: 0.625rem 3.125rem 0.625rem 0.625rem;
+  font-weight: 400; text-transform: none; font-size: var(--undpds-font-size-16); line-height: 1.4;
+}
+.atlas-ds .atlds-active { grid-column: 1 / -1; display: flex; flex-wrap: wrap; align-items: center; gap: var(--undpds-spacing-03); }
+.atlas-ds .atlds-active__label { font-size: var(--undpds-font-size-14); font-weight: 700; text-transform: uppercase; letter-spacing: .03em; }
+.atlas-ds .atlds-active .chip { cursor: pointer; font: inherit; font-size: var(--undpds-font-size-14); }
+.atlas-ds .atlds-clear { border: 0; background: transparent; cursor: pointer; font: inherit; font-size: var(--undpds-font-size-14); font-weight: 700; text-decoration: underline; text-underline-offset: 2px; padding: var(--undpds-spacing-02); }
+.atlas-ds .atlds-notice {
+  border-left: 3px solid var(--undpds-color-blue-600);
+  padding: var(--undpds-spacing-04) var(--undpds-spacing-05);
+  background: var(--undpds-color-surface-default);
+  font-size: var(--undpds-font-size-14); max-width: 96ch;
+  margin-block-end: var(--undpds-spacing-07);
+}
+
+/* --- Secciones por nivel -------------------------------------------------- */
+.atlas-ds .atlds-line { padding-top: var(--undpds-spacing-06); border-top: 2px solid var(--undpds-color-border-default); margin-block-end: var(--undpds-spacing-08); }
+.atlas-ds .atlds-line__count {
+  display: flex; align-items: center; gap: var(--undpds-spacing-02);
+  font-size: var(--undpds-font-size-16); font-weight: 700; text-transform: uppercase; letter-spacing: .03em;
+  margin-block-end: var(--undpds-spacing-05);
+}
+.atlas-ds .atlds-empty { padding: var(--undpds-spacing-09) 0; border-top: 2px solid var(--undpds-color-border-default); text-align: center; }
+
+/* Tabla Noteworthy */
+.atlas-ds .atlds-tablewrap { overflow-x: auto; }
+.atlas-ds table.atlds-table { border-collapse: collapse; width: 100%; font-size: var(--undpds-font-size-16); }
+.atlas-ds table.atlds-table th, .atlas-ds table.atlds-table td { text-align: left; padding: var(--undpds-spacing-03) var(--undpds-spacing-04); border-bottom: 1px solid var(--undpds-color-border-subtle); vertical-align: top; }
+.atlas-ds table.atlds-table th { font-weight: 700; border-bottom: 2px solid var(--undpds-color-border-default); text-transform: uppercase; font-size: var(--undpds-font-size-14); letter-spacing: .03em; }
+.atlas-ds .atlds-rowbtn { border: 0; background: transparent; cursor: pointer; font: inherit; font-weight: 600; text-align: left; padding: 0; color: var(--undpds-color-blue-600); text-decoration: underline; text-underline-offset: 2px; }
+.atlas-ds .atlds-rowbtn:hover { color: var(--undpds-color-blue-700); }
+.atlas-ds .atlds-td-org { color: var(--undpds-color-gray-600); font-size: var(--undpds-font-size-14); }
+.atlas-ds .atlds-td-cat { font-size: var(--undpds-font-size-14); white-space: nowrap; }
+@media (max-width: 47.9375em) {
+  .atlas-ds table.atlds-table .atlds-td-org { display: none; }
+}
+
+/* --- Modal (ficha) --------------------------------------------------------
+   Clases modal/modal-content del DS + endurecimiento explícito de visibilidad
+   (lección del modal invisible en Drupal) y foco gestionado por nuestro JS. */
+.atlas-ds .modal { z-index: 1000; transition: none; visibility: hidden; opacity: 0; }
+.atlas-ds .modal.open { visibility: visible; opacity: 1; }
+.atlas-ds .atlds-modal { position: fixed; inset: 0; display: grid; place-items: center; padding: var(--undpds-spacing-05); }
+.atlas-ds .atlds-modal__backdrop { position: absolute; inset: 0; background: rgba(35, 46, 62, .55); }
+.atlas-ds .atlds-modal__box {
+  position: relative; width: min(46rem, 100%); max-height: min(85vh, 60rem);
+  overflow-y: auto; background: var(--undpds-color-white);
+  padding: var(--undpds-spacing-06); visibility: visible; opacity: 1;
+}
+.atlas-ds .atlds-modal__head { display: flex; justify-content: space-between; align-items: flex-start; gap: var(--undpds-spacing-04); margin-block-end: var(--undpds-spacing-04); }
+.atlas-ds .atlds-modal__head .atlds-eyebrow { display: flex; align-items: center; gap: var(--undpds-spacing-02); margin: 0; }
+.atlas-ds .atlds-modal__close { cursor: pointer; margin: 0; min-height: 2.5rem; padding: 0 var(--undpds-spacing-04); font-size: var(--undpds-font-size-14); }
+.atlas-ds .atlds-modal__box h2 { font-size: var(--undpds-font-size-32); line-height: 1.1; text-transform: none; margin: 0 0 var(--undpds-spacing-03); }
+.atlas-ds .atlds-modal__org { color: var(--undpds-color-gray-600); margin-block-end: var(--undpds-spacing-05); }
+.atlas-ds .atlds-modal__img { width: 100%; display: block; margin-block-end: var(--undpds-spacing-05); }
+.atlas-ds .atlds-modal__box h4.atlds-eyebrow { margin-block-start: var(--undpds-spacing-06); }
+.atlas-ds .atlds-meta { display: grid; grid-template-columns: 1fr 1fr; gap: 1px; background: var(--undpds-color-border-subtle); margin: 0 0 var(--undpds-spacing-05); }
+.atlas-ds .atlds-meta > div { background: var(--undpds-color-surface-default); padding: var(--undpds-spacing-03) var(--undpds-spacing-04); }
+.atlas-ds .atlds-meta dt { font-size: var(--undpds-font-size-12); font-weight: 700; text-transform: uppercase; letter-spacing: .03em; color: var(--undpds-color-gray-600); }
+.atlas-ds .atlds-meta dd { margin: var(--undpds-spacing-01) 0 0; font-weight: 600; }
+.atlas-ds .atlds-prewrap { white-space: pre-line; }
+.atlas-ds .atlds-fallback { font-size: var(--undpds-font-size-12); color: var(--undpds-color-gray-500); }
+.atlas-ds .atlds-links { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--undpds-spacing-02); }
+.atlas-ds .atlds-links li { margin: 0; padding: 0; word-break: break-all; }
+.atlas-ds .atlds-links .cta__link { background-image: none; }
+
+/* --- Movimiento reducido -------------------------------------------------- */
+@media (prefers-reduced-motion: reduce) {
+  .atlas-ds *, .atlas-ds *::before, .atlas-ds *::after {
+    animation-duration: 0.01ms !important; animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important; scroll-behavior: auto !important;
+  }
+}
