@@ -99,6 +99,17 @@ const STR = {
 const I18N = createContext(null);
 function useI18n() { return useContext(I18N); }
 
+/* Regla de publicación PNUD: en el embed Drupal el idioma lo fija el host con
+   data-lang="es|en" sobre #atlas-root (un archivo por idioma). Si está presente,
+   el idioma queda fijo y el selector EN/ES no se muestra (el host tiene el suyo). */
+const FIXED_LANG = (() => {
+  try {
+    const r = document.getElementById('atlas-root');
+    const d = r && r.getAttribute('data-lang');
+    return (d === 'es' || d === 'en') ? d : null;
+  } catch (e) { return null; }
+})();
+
 function trunc(s, n) {
   if (!s) return '';
   if (s.length <= n) return s;
@@ -682,7 +693,8 @@ function CasePanel({ c, onClose }) {
 /* ---------- App ---------- */
 function App() {
   const [lang, setLangState] = useState(() => {
-    // prioridad: ?lang= → window.ATLAS_LANG (config del embed) → localStorage → 'en'
+    // prioridad: data-lang (host Drupal) → ?lang= → window.ATLAS_LANG → localStorage → 'en'
+    if (FIXED_LANG) return FIXED_LANG;
     try {
       const p = new URLSearchParams(location.search).get('lang');
       if (p === 'es' || p === 'en') return p;
@@ -690,7 +702,11 @@ function App() {
       return localStorage.getItem('atlas-lang') || 'en';
     } catch (e) { return 'en'; }
   });
-  const setLang = l => { setLangState(l); try { localStorage.setItem('atlas-lang', l); } catch (e) {} };
+  const setLang = l => {
+    if (FIXED_LANG) return;
+    setLangState(l);
+    try { localStorage.setItem('atlas-lang', l); } catch (e) {}
+  };
   const t = STR[lang];
 
   const cases = useMemo(() => {
@@ -772,9 +788,11 @@ function App() {
   return (
     <I18N.Provider value={{ lang, setLang, t }}>
       <div className="atlas-container" style={{ paddingTop: 34, paddingBottom: 90 }}>
-        <div style={{ display: 'flex', justifyContent: 'flex-end', marginBottom: 18 }}>
-          <LangSwitch />
-        </div>
+        {!FIXED_LANG && (
+          <div style={{ display: 'flex', justifyContent: 'flex-end', marginBottom: 18 }}>
+            <LangSwitch />
+          </div>
+        )}
         <StatsBand cases={cases} />
         <CategoryBand cases={cases} filters={filters} setF={setF} />
         <SpotlightSection cases={cases} openCase={setSel} />

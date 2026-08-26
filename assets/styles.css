@@ -178,6 +178,15 @@
 @keyframes atlas-slidein { from { transform: translateX(40px); opacity: .4 } to { transform: translateX(0); opacity: 1 } }
 @keyframes atlas-fadein { from { opacity: 0 } to { opacity: 1 } }
 
+/* ---------- Endurecimiento anti-colisión (reglas de publicación PNUD) ----------
+   El tema de Drupal puede pisar clases con reglas propias (lección del `.modal`
+   invisible en Soluciones Integrales). Aunque nuestros nombres llevan prefijo
+   atlas-, se declaran explícitamente las propiedades críticas de visibilidad
+   de los elementos superpuestos, aun siendo los valores por defecto. */
+.atlas-app .atlas-overlay { visibility: visible; opacity: 1; }
+.atlas-app .atlas-panel { visibility: visible; opacity: 1; display: block; }
+.atlas-app .atlas-dropdown { visibility: visible; opacity: 1; display: block; }
+
 /* ---------- Accesibilidad ---------- */
 .atlas-app :focus { outline: none; }
 .atlas-app :focus-visible { outline: 2px solid var(--pacific); outline-offset: 2px; border-radius: 4px; }
