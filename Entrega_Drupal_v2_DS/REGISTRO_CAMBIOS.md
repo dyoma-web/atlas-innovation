@@ -6,6 +6,10 @@
   ondes de la parole publique, c017 Ancla de Voces de Chinú) usan ahora el banner
   general del Atlas (`Insumos/IMG_9667.jpg`), recortado a 16:9 (1420×799) para las
   tarjetas, conservando el logo UNDP y sin el bloque "in collaboration with: catálise".
+- Cifras (stats-card): el número ya no se parte en dos líneas en anchos medianos y
+  móvil ("11 / 2" en 1080 px); tamaño fluido `clamp(2.5rem, 7vw, 6.875rem)` sin salto.
+- Capturas del sitio en `capturas/` (EN y ES): 1440×926, 1080×720 y 1600×900 (16:9,
+  proporción de las tarjetas), cada una también en @2x para alta resolución.
 
 ## 2026-10-20 — Ajustes del cliente ("Ajustes atlas.docx")
 

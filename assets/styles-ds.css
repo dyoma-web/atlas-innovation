@@ -55,7 +55,7 @@
 .atlas-ds .atlds-report__link:focus-visible { outline: 2px solid var(--undpds-color-white); outline-offset: 2px; }
 .atlas-ds .atlds-stats { display: flex; flex-wrap: wrap; gap: 2px; }
 .atlas-ds .atlds-stats__card { flex: 1 1 10rem; max-width: none; padding: var(--undpds-spacing-06); }
-.atlas-ds .atlds-stats__card h2 { font-variant-numeric: tabular-nums; margin: 0 0 var(--undpds-spacing-02); }
+.atlas-ds .atlds-stats__card h2 { font-variant-numeric: tabular-nums; margin: 0 0 var(--undpds-spacing-02); white-space: nowrap; font-size: clamp(2.5rem, 7vw, 6.875rem); }
 .atlas-ds .atlds-stats__card p { margin: 0; font-size: var(--undpds-font-size-14); text-transform: uppercase; letter-spacing: .03em; color: var(--undpds-color-gray-600); }
 
 /* --- Categorías (botones con barra de color de datos) --------------------- */
