@@ -23,9 +23,13 @@ const ISO_NUM = { BR:'076', AR:'032', CO:'170', DE:'276', IN:'356', ES:'724', MX
   CF:'140', CD:'180', AO:'024', BJ:'204', YE:'887', LR:'430', US:'840', CA:'124',
   GB:'826', ID:'360', UG:'800', KH:'116', PA:'591', PY:'600', VE:'862' };
 
+const REPORT_URL = 'https://www.undp.org/governance/access-information';
+
 const STR = {
   en: {
     kpiCases: 'Cases in the repository', kpiCountries: 'Countries represented',
+    reportKicker: 'Access to information',
+    reportLink: 'Download the full report (PDF) and watch the video',
     kpiRegions: 'UNDP regions', kpiLangs: 'Submission languages',
     howTitle: 'How the cases are organised',
     howText: 'Every case belongs to one of five thematic categories and to one of three visibility levels, which determine how much detail the repository entry carries.',
@@ -61,6 +65,8 @@ const STR = {
   },
   es: {
     kpiCases: 'Casos en el repositorio', kpiCountries: 'Países representados',
+    reportKicker: 'Acceso a la información',
+    reportLink: 'Descarga el informe completo (PDF) y mira el video',
     kpiRegions: 'Regiones PNUD', kpiLangs: 'Idiomas de postulación',
     howTitle: 'Cómo se organizan los casos',
     howText: 'Cada caso pertenece a una de cinco categorías temáticas y a uno de tres niveles de visibilidad, que determinan el nivel de detalle de su entrada en el repositorio.',
@@ -151,11 +157,15 @@ function StatsBand({ cases }) {
     [new Set(cases.map(c => c.region.en)).size, t.kpiRegions],
     [new Set(cases.map(c => c.lang)).size, t.kpiLangs]
   ];
-  const logo = window.ATLAS_LOGO || 'assets/img/logos-white.png';
+  const logo = window.ATLAS_LOGO || 'assets/img/undp-vertical-white.svg';
   return (
     <section>
       <div className="atlds-logoband">
-        <img src={logo} alt="UNDP · Catálise" />
+        <div className="atlds-report">
+          <p className="atlds-report__kicker">{t.reportKicker}</p>
+          <a className="cta__link atlds-report__link" href={REPORT_URL} target="_blank" rel="noopener noreferrer">{t.reportLink} ↗</a>
+        </div>
+        <img className="atlds-logoband__logo" src={logo} alt="UNDP" />
       </div>
       <div className="atlds-stats">
         {kpis.map(([n, label]) => (
@@ -260,7 +270,7 @@ function WorldMap({ counts, selected, onPick, brazilLabel }) {
     Object.keys(ISO_NUM).forEach(iso => { numToIso[ISO_NUM[iso]] = iso; });
     const color = (n, iso) => iso === 'BR' ? 'var(--undpds-color-gray-700)'
       : n >= 6 ? 'var(--undpds-color-blue-600)' : n >= 3 ? 'var(--undpds-color-blue-400)'
-      : n === 2 ? 'var(--undpds-color-blue-300)' : n === 1 ? 'var(--undpds-color-blue-200)' : 'var(--undpds-color-gray-200)';
+      : n === 2 ? 'var(--undpds-color-blue-300)' : n === 1 ? 'var(--undpds-color-blue-200)' : 'var(--undpds-color-gray-400)';
     svg.append('g').selectAll('path').data(world.features).join('path')
       .attr('d', path)
       .attr('fill', d => {
@@ -334,7 +344,7 @@ function MapSection({ cases, filters, setF }) {
     ['var(--undpds-color-blue-200)', '1'], ['var(--undpds-color-blue-300)', '2'],
     ['var(--undpds-color-blue-400)', '3–5'], ['var(--undpds-color-blue-600)', '6+'],
     ['var(--undpds-color-gray-700)', lang === 'es' ? 'Brasil' : 'Brazil'],
-    ['var(--undpds-color-gray-200)', t.mapNone]
+    ['var(--undpds-color-gray-400)', t.mapNone]
   ];
   return (
     <section id="atlas-map" className="atlds-dash">

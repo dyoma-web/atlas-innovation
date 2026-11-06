@@ -15,7 +15,7 @@ Salidas en Entrega_Drupal_v2_DS/:
                                                       DS desde CDN (servidor de pruebas)
 Regenerar:  python tools/build_drupal_embed_v2.py
 """
-import io, sys, os, re, subprocess, datetime
+import io, sys, os, re, subprocess, datetime, base64
 
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -60,8 +60,11 @@ def main():
     img_dir = os.path.join(ROOT, 'assets', 'img', 'spotlight')
     entries = [f"  {f[:-4]}: '{ASSETS_BASE}assets/img/spotlight/{f}'"
                for f in sorted(os.listdir(img_dir)) if f.endswith('.jpg')]
+    # Logo incrustado (data URI): no depende de que el SVG esté publicado en GitHub Pages
+    logo_svg = open(os.path.join(ROOT, 'assets', 'img', 'undp-vertical-white.svg'), 'rb').read()
+    logo_uri = 'data:image/svg+xml;base64,' + base64.b64encode(logo_svg).decode('ascii')
     images = ('window.ATLAS_IMAGES = {\n' + ',\n'.join(entries) + '\n};\n'
-              f"window.ATLAS_LOGO = '{ASSETS_BASE}assets/img/logos-white.png';")
+              f"window.ATLAS_LOGO = '{logo_uri}';")
     stamp = datetime.date.today().isoformat()
 
     for lang in ('en', 'es'):
